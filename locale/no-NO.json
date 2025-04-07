@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
 	"commands.claim.success": "Din ticket vill bli behandlet av %s",
-	"commands.invite": "[Klikk her](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Klikk her](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",

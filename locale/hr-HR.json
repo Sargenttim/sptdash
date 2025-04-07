@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Morate spomenuti korisnika za kojeg želite prebaciti stanje crne liste",
 	"commands.blacklist.self": "Ne možete sebe staviti na crnu listu",
 	"commands.claim.success": "Vašom ulaznicom rukovat će %s",
-	"commands.invite": "[Kliknite ovdje](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Kliknite ovdje](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Morate navesti šifru jezika ili zastavicu. Dostupni jezici:\\n%s",
 	"commands.open.ticket_limit": "Možete otvoriti samo %d %s odjednom",
 	"commands.open.too_many_tickets": "Previše je ulaznica u kategoriji ticket. Zatražite od administratora da neke zatvori ili da ih premjesti u drugu kategoriju",

@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
 	"commands.blacklist.self": "You cannot blacklist yourself",
 	"commands.claim.success": "Your ticket will be handled by %s",
-	"commands.invite": "[Click here](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Click here](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
 	"commands.open.ticket_limit": "You are only able to open %d %s at once",
 	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",

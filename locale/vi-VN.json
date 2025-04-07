@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Bạn cần nhắc đến một thành viên để chuyển đổi trạng thái chặn",
 	"commands.blacklist.self": "Bạn không thể chặn chính mình",
 	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
-	"commands.invite": "[Ấn vào đây](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Ấn vào đây](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
 	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác",

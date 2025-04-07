@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "ブラックリストの状態を切り替えるには、ユーザーにメンションする必要があります。",
 	"commands.blacklist.self": "自分自身をブラックリストに追加することはできません",
 	"commands.claim.success": "あなたのチケットは %s が対応します。",
-	"commands.invite": "[ここをクリック](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[ここをクリック](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "言語コードまたはフラグを指定する必要があります。利用可能な言語:\\n%s",
 	"commands.open.ticket_limit": "一度に開くことができるのは、%d %s だけです。",
 	"commands.open.too_many_tickets": "チケットカテゴリにチケットが多すぎます。管理者に依頼していくつかのチケットを閉じるか、他のカテゴリに移動してください。",

@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "تحتاج إلى ذكر مستخدم لتبديل حالة القائمة السوداء من أجل",
 	"commands.blacklist.self": "لا يمكنك وضع نفسك في القائمة السوداء",
 	"commands.claim.success": " %s سيتم التعامل مع تذكرتك من قبل ",
-	"commands.invite": "[انقر هنا](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[انقر هنا](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "\n%s :الرجاء تحديد رمز اللغة او علم . اللغات المتوفرة",
 	"commands.open.ticket_limit": "في الوقت ذاته %d %s يمكن فتح ",
 	"commands.open.too_many_tickets": "هناك عدد كبير من التذاكر في فئة التذاكر هذه. اطلب من الاّدمن إغلاق البعض أو نقلهم إلى فئة أخرى",

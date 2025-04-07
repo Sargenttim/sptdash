@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Musisz oznaczyć użytkownika, aby dodać go na czarną listę",
 	"commands.blacklist.self": "Nie możesz dodać samego siebie na czarną listę",
 	"commands.claim.success": "%s zajmie się obsługą Twojego zgłoszenia",
-	"commands.invite": "[Kliknij tutaj](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Kliknij tutaj](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Musisz określić kod języka lub flagę. Dostępne języki:\\n%s",
 	"commands.open.ticket_limit": " W jednym momencie możesz otworzyć tylko %d %s",
 	"commands.open.too_many_tickets": "W tej kategorii jest zbyt dużo otwartych zgłoszeń. Poproś administrację o zamknięcie paru, przeniesienie ich do innej kategorii lub skonfigurowanie kategorii przeciążenia.\n\nTo jest limit 50 kanałów na kategorię **narzucony przez Discorda**.",

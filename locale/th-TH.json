@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "คุณต้องระบุผู้ใช้ที่สลับสถานะบัญชีดำ",
 	"commands.blacklist.self": "คุณไม่สามารถขึ้นบัญชีดำตัวเองได้",
 	"commands.claim.success": "Ticket ของคุณจะถูกให้บริการโดย %s",
-	"commands.invite": "[คลิกที่นี่](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[คลิกที่นี่](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "คุณต้องระบุรหัสภาษา หรือ ธง. ภาษาที่สามารถใช้ได้: \\n%s",
 	"commands.open.ticket_limit": "คุณสามารถที่จะเปิด %d %s ได้ในหนึ่งครั้ง",
 	"commands.open.too_many_tickets": "มีตั๋วมากเกินไปในหมวดหมู่ตั๋ว, ขอให้ผู้ดูแลระบบปิดไปบางส่วน, ย้ายไปยังหมวดหมู่อื่น หรือ ตั้งค่าหมวดหมู่เพิ่มเติม\n\nนี่คือ **ข้อจำกัดที่กำหนดโดย ดิสคอร์ด** ที่สามารถมีช่องได้ไม่เกิน 50 ช่องต่อหมวดหมู่",

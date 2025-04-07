@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "U moet een gebruiker vermelden om de blacklist-status in te schakelen",
 	"commands.blacklist.self": "U kunt uzelf niet op de blacklist zetten",
 	"commands.claim.success": "Uw ticket wordt afgehandeld door %s",
-	"commands.invite": "[Klik hier](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Klik hier](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "U moet een taalcode of vlag opgeven. Beschikbare talen:\\n%s",
 	"commands.open.ticket_limit": "U kunt %d %s slechts in één keer openen",
 	"commands.open.too_many_tickets": "Er zijn te veel tickets in de ticketcategorie. Vraag een beheerder om sommige te sluiten of om ze naar een andere categorie te verplaatsen",

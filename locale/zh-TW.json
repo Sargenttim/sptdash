@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "您需要提及一個用戶來切換黑名單狀態",
 	"commands.blacklist.self": "你想不開是不是？幹嘛黑名單自己",
 	"commands.claim.success": "你的問題單將由 %s 為您服務",
-	"commands.invite": "[點我邀請機器人](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[點我邀請機器人](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "您需要指定語言代碼或標誌。可用語言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打開 %d %s",
 	"commands.open.too_many_tickets": "客服單類別中的客服單過多。要求管理員關閉一些，或將它們移到另一個類別，否則將無法開啟\n\n這是 **Discord 的限制**，每個類別最多 50 個頻道。",

@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Vous devez mentionner un utilisateur pour changer son état sur la liste noire",
 	"commands.blacklist.self": "Vous ne pouvez pas vous mettre vous-même sur liste noire",
 	"commands.claim.success": "Votre ticket sera traité par %s",
-	"commands.invite": "[Cliquez ici](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Cliquez ici](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Vous devez spécifier un code de langue ou un drapeau. Langues disponibles :\\n%s",
 	"commands.open.ticket_limit": "Vous ne pouvez ouvrir que %d %s à la fois",
 	"commands.open.too_many_tickets": "Il y a trop de tickets dans la catégorie des tickets. Demandez à un administrateur d'en fermer quelques-uns, ou de les déplacer dans une autre catégorie",

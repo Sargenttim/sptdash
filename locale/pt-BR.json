@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Você precisa mencionar um usuário para alternar o seu estado de bloqueio",
 	"commands.blacklist.self": "Você não pode bloquear a si mesmo",
 	"commands.claim.success": "O seu ticket será atendido por %s",
-	"commands.invite": "[Clique aqui](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Clique aqui](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Você precisa especificar uma código de idioma ou uma bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Você só pode abrir %d %s de uma vez",
 	"commands.open.too_many_tickets": "Existem tickets demais na categoria de tickets. Peça pra um admin fechar alguns, ou movê-los para outra categoria",

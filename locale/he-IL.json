@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "עליך לתייג את שם המשתמש כדי להחליף את מצב הרשימה השחורה עבורו",
 	"commands.blacklist.self": "אתה לא יכול לרשום את עצמך ברשימה השחורה",
 	"commands.claim.success": "הכרטיס שלך יטופל על ידי %s",
-	"commands.invite": "[לחצו כאן](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[לחצו כאן](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "עליך לציין את קוד השפה או דגל השפה. שפות זמינות:\\n%s",
 	"commands.open.ticket_limit": "אתה מורשה בלבד לפתוח %d %s רק בפעם אחת",
 	"commands.open.too_many_tickets": "יש יותר מדי כרטיסים בקטגוריית הכרטיסים. בקש ממנהללסגור חלק, להעביר אותם לקטגוריה אחרת, או להגדיר קטגוריית הצפה.\n\nזוהי **הגבלה שהוטלה על ידי דיסקורד** של 50 ערוצים לקטגוריה.",

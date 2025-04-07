@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Мораш да поменеш корисника да промени стање црне листе за",
 	"commands.blacklist.self": "Не можеш се ставити на црну листу",
 	"commands.claim.success": "Ваш улазницу ће носити %s",
-	"commands.invite": "[Кликни овде](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Кликни овде](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
 	"commands.open.ticket_limit": "Можеш само да отвориш %d%s cместа",
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",

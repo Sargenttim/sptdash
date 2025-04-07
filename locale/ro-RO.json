@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Trebuie sa mentionezi o persoana pentru a activa/dezactiva starea blacklist-ului pentru",
 	"commands.blacklist.self": "Nu iti poti oferi blacklist singur",
 	"commands.claim.success": "Ticket-ul tau va fi preluat de catre %s",
-	"commands.invite": "[Apasa aici](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Apasa aici](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Trebuie sa specificati un cod de limba sau un steag. Limbi disponibile:\\n%s",
 	"commands.open.ticket_limit": "Poti deschide %d %s deodata",
 	"commands.open.too_many_tickets": "Exista prea multe tickete in aceasta categorie. Cereti unui administrator sa inchida cateva sau sa mute intr-o alta categorie",

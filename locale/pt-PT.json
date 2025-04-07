@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Tu precisas de mencionar um utilizador para alterar o estado da lista negra para",
 	"commands.blacklist.self": "Não te podes colocar a ti mesmo na lista negra",
 	"commands.claim.success": "O teu bilhete será tratado por %s",
-	"commands.invite": "[Clica aqui](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Clica aqui](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",

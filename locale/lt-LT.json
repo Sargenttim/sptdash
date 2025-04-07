@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Jūs turite paminėti vartotoja, kad įtrauktumėte į juodąjį šąrašą",
 	"commands.blacklist.self": "Jūs negalite savęs įtraukti į juodąjį sąrašą",
 	"commands.claim.success": "Jūsų bilietu apsiims %s",
-	"commands.invite": "[Paspauskite čia](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Paspauskite čia](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
 	"commands.open.ticket_limit": "Vienu metu galite atidaryti tik %d %s",
 	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytu kelis arba perkeltu į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",

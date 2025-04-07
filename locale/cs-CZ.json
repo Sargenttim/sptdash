@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Musíte zmínit uživatele pro zapnutí stavu černé listiny na",
 	"commands.blacklist.self": "Nemůžeš dát na černou listinu sám sebe",
 	"commands.claim.success": "Váš ticket bude řešit uživatel %s",
-	"commands.invite": "[Klikněte zde](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Klikněte zde](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Musíte zadat kód jazyka nebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
 	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",

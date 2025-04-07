@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Omeniti morate uporabnika, za katerega želite spremeniti status črnega seznama",
 	"commands.blacklist.self": "Ne morete se uvrstiti na črno",
 	"commands.claim.success": "Vašo vstopnico bo obravnaval %s",
-	"commands.invite": "[Kliknite tukaj](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Kliknite tukaj](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Določiti morate jezikovno kodo ali zastavico. Razpoložljivi jeziki:\\n%s",
 	"commands.open.ticket_limit": "Naenkrat lahko odprete samo %d %s",
 	"commands.open.too_many_tickets": "V kategoriji vstopnic je preveč vstopnic. Prosite skrbnika, da nekatere zapre, jih premakne v drugo kategorijo ali nastavi kategorijo presežka. To je **Discordova omejitev** 50 kanalov na kategorijo.",

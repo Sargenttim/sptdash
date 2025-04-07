@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
 	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
 	"commands.claim.success": "你的问题单将由 %s 为您服务",
-	"commands.invite": "[点击此处](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[点击此处](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
 	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",

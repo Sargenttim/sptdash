@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
-	"commands.invite": "Botu davet etmek için [Tıklayın](<https://invite.ticketsbot.net>)",
+	"commands.invite": "Botu davet etmek için [Tıklayın](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",

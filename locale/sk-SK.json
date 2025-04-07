@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Musíte uviesť používateľa, ktorý prepína stav čiernej listiny pre",
 	"commands.blacklist.self": "Nemôžete sa zaradiť na čiernu listinu",
 	"commands.claim.success": "Váš ticket spracuje %s",
-	"commands.invite": "[Kliknite sem](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Kliknite sem](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Musíte zadať kód jazyka alebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Naraz môžete otvoriť iba %d %s",
 	"commands.open.too_many_tickets": "V kategórii ticketov je príliš veľa ticketov. Požiadajte správcu, aby niektoré z nich zatvoril, presunul do inej kategórie alebo vytvoril kategóriu preplnených lístkov.\n\nIde o **Discordom stanovený limit** 50 kanálov na kategóriu.",

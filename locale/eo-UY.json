@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Vi bezonas ke mencii uzanto por baskulu la nigralistŝtaton",
 	"commands.blacklist.self": "Vi ne povas nigralistigi vin mem",
 	"commands.claim.success": "Via bileto estus respondita de %s",
-	"commands.invite": "[Klaku ĉi tie](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Klaku ĉi tie](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Vi bezonas elekti lingvokodon aŭ flagon. Disponeblaj lingvoj:\\n%s",
 	"commands.open.ticket_limit": "Vi nur kapablas malfermi %d %s samtempe",
 	"commands.open.too_many_tickets": "Estas tre multaj biletoj en la kategorio de biletoj. Vi povas demandi al administranto por fermi iom el la biletoj, moviĝi iom al alia kategorio, aŭ agordi superfluan kategorion.\n\nĈi tio estas **Diskordo-trudita limo** de 50 kanalojn en ĉiu kategorio.",

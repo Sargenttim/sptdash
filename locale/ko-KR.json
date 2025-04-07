@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
 	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
 	"commands.claim.success": "내 티켓을 %s님이 담당해요",
-	"commands.invite": "[여길 누르세요](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[여길 누르세요](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "언어 코드 또는 플래그를 지정해야 합니다. 사용 가능한 언어:\\n%s",
 	"commands.open.ticket_limit": "한 번에 %d %s만 열 수 있습니다.",
 	"commands.open.too_many_tickets": "티켓 카테고리에 티켓이 너무 많습니다. 관리자에게 일부를 닫거나 다른 카테고리로 이동하도록 요청하세요.",

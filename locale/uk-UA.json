@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "Вам потрібно вказати користувача, щоб перемикнути стан чорного списку для",
 	"commands.blacklist.self": "Ви не можете заблокувати самого себе",
 	"commands.claim.success": "Вашу заявку обробляє %s",
-	"commands.invite": "[Натисніть сюди](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Натисніть сюди](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "Вам необхідно вказати код мови або прапор. Доступні мови:\\n%s",
 	"commands.open.ticket_limit": "Ви можете відкрити тільки %d %s одночасно",
 	"commands.open.too_many_tickets": "У категорії заявок занадто багато заявок. Попросіть адміністратора закрити деякі з них або перемістити їх в іншу категорію",

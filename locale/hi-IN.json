@@ -10,7 +10,7 @@
 	"commands.blacklist.no_members": "ब्लैकलिस्ट स्थिति को चालू करने के लिए आपको एक उपयोगकर्ता का उल्लेख करना होगा",
 	"commands.blacklist.self": "आप खुद को ब्लैकलिस्ट नहीं कर सकते",
 	"commands.claim.success": "आपका टिकट %s द्वारा नियंत्रित किया जाएगा",
-	"commands.invite": "[यहां क्लिक करें](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[यहां क्लिक करें](<https://discord.com/oauth2/authorize?client_id=1358483187675955240>)",
 	"commands.language.invalid": "आपको एक भाषा कोड या ध्वज निर्दिष्ट करने की आवश्यकता है। उपलब्ध भाषाएँ:\\n%s",
 	"commands.open.ticket_limit": "आप एक बार में केवल %d %s खोल सकते हैं",
 	"commands.open.too_many_tickets": "टिकट श्रेणी में बहुत अधिक टिकट हैं। किसी व्यवस्थापक से कुछ को बंद करने, या उन्हें किसी अन्य श्रेणी में ले जाने के लिए कहें",
