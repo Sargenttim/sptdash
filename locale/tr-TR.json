@@ -1,0 +1,330 @@
+{
+	"commands.about": "Destek botu kullanımı kolay ve nerdeyse bütün ayarları istediğiniz gibi düzenleyebileceğiniz bir destek botudur. \\nYardım sunucusu: https://discord.gg/VtV3rSk \\nKomutlar: Yardım için `/help`\\nKuruluma başlamak için `/setup` yazınız",
+	"commands.add.no_channel": "Talebe kullanıcı(ları) eklemek için talep kanalını etiketlemeniz gerekiyor.",
+	"commands.add.no_members": "Talebe kullanıcı eklemek için kullanıcıyı etiketlemeniz gerekiyor.",
+	"commands.add.no_permission": "Talebe kullanıcı eklemek için izniniz yok.",
+	"commands.add.not_ticket": "Etiketlenen kanal bir talep kanalı değil.",
+	"commands.addadmin.no_members": "Yönetici yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
+	"commands.addadmin.owner": "Sunucu sahibi zaten bir yönetici",
+	"commands.addsupport.no_members": "Destek yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
+	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
+	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
+	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
+	"commands.invite": "Botu davet etmek için [Tıklayın](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
+	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
+	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
+	"commands.panel": "Bir paneli yapılandırmak için <https://dashboard.ticketsbot.net/manage/%d/panels> bağlantısını ziyaret edin.",
+	"commands.premium": "<https://www.patreon.com/ticketsbot> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.ticketsbot.net> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
+	"commands.premium.already_premium": "Bu sunucunun zaten premium aboneliği var. %s tarihinde süresi doluyor.",
+	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
+	"commands.remove.no_permission": "Talepten kullanıcı çıkarmak için izniniz yok.",
+	"commands.remove.staff": "Talepten yetkilileri çıkaramazsın!",
+	"commands.removeadmin.no_members": "Yönetici ayrıcalıklarını silmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
+	"commands.removeadmin.owner": "Sunucu sahibinin bir yönetici olması gerekiyor.",
+	"commands.removeadmin.self": "Kendi yetkilerinizi silemezsiniz.",
+	"commands.removesupport.no_members": "Destek ayrıcalıklarını silmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
+	"commands.rename.missing_name": "Bu talep için yeni bir ad belirtmeniz gerekiyor.",
+	"commands.rename.success": "Talep <#%d> olarak yeniden adlandırıldı.",
+	"commands.tags.create.already_exists": "`%s` Böyle bir etiket zaten var. `/tag delete %s` komutunu kullanarak etiketi silebilirsiniz",
+	"commands.tags.create.invalid_arguments": "Bir etiket IDsi ve içeriği belirtmelisiniz.",
+	"commands.tags.create.too_long": "Etiket IDleri 16 karakterden uzun olamaz.",
+	"commands.tags.delete.invalid_arguments": "Silme eylemini yapabilmek için bir ID belirtmelisiniz.",
+	"commands.tags.delete.not_exist": "`%s` IDsine sahip bir etiket bulunamadı.",
+	"commands.tags.get.invalid_arguments": "Etiket IDsini yazmanız gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <https://ticketsbot.net/tags> bağlantısını ziyaret edin.",
+	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <https://ticketsbot.net/tags> bağlantısını ziyaret edin.",
+	"commands.tags.list": "Mevcut olan bütün etiketlerin IDleri: \n%s\nEtiketin içeriğini görüntülemek için, `%stag <ID>` komutunu kullanın.",
+	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
+	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
+	"commands.unclaim.success": "Tüm yetkililer artık talep ile ilgilenebilir.",
+	"commands.vote": "24 saatlik ücretsiz premium ayrıcalıklarına sahip olmak için oy bağlantısına tıklayın:\n<https://vote.ticketsbot.net>",
+	"generic.invalid_argument": "Geçersiz argüman: Nasıl kullanıldığını kontrol edin.",
+	"generic.invalid_user": "Belirtilen kullanıcı bulunamadı.",
+	"generic.no_permission": "Bunu yapmak için yetkin yok.",
+	"generic.not_ticket": "Bu bir talep kanalı değil.",
+	"generic.owner_only": "Bu komutu yalnızca bot sahibi kullanabilir.",
+	"help.about": "Bot hakkında bilgi verir",
+	"help.add": "Talebe bir kullanıcı ekler",
+	"help.addadmin": "Bir kullanıcı veya role yönetici yetkilerini verir",
+	"help.addsupport": "Bir kullanıcı veya role destek yetkilerini verir",
+	"help.admin": "Bot yönetimi",
+	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
+	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
+	"help.admin.force_close": "Sağlanan taleplerin durumunu kapalı olarak ayarlar",
+	"help.admin.generate_premium": "Premium anahtarları oluşturur",
+	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
+	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
+	"help.admin.update_schema": "Veritabanı şemasını günceller",
+	"help.blacklist": "Kullanıcıların botu kullanmasına izin verilip, verilmediğini değiştirir",
+	"help.cancel": "Kurulum işlemini iptal eder",
+	"help.claim": "Talebi tek bir yetkiliye devreder",
+	"help.close": "Talebi kapatır",
+	"help.help": "Komutların listesini gösterir",
+	"help.invite": "Bot için bir davet bağlantısı sağlar",
+	"help.language": "Botun kullanıldığı dili değiştirir",
+	"help.managetags": "Etiket ekleme, silme veya listeleme",
+	"help.open": "Yeni bir talep oluşturur",
+	"help.panel": "Kullanıcıların tek bir tıklama ile talep oluşturması için bir panel oluşturur",
+	"help.premium": "",
+	"help.remove": "Bir kullanıcıyı talepten kaldırır",
+	"help.removeadmin": "Bir kullanıcının veya rolün yönetici yetkilerini siler",
+	"help.removesupport": "Bir kullanıcının veya rolün destek yetkilerini siler",
+	"help.rename": "Talebi yeniden adlandırır",
+	"help.setup": "Botu kolayca kurmanızı sağlar",
+	"help.stats": "Kullanıcılar, yetkililer ve sunucu hakkındaki istatistikleri gösterir",
+	"help.statsserver": "Sunucu ile ilgili istatistikleri gösterir",
+	"help.tag": "Hazır mesajları gönderir",
+	"help.tagdelete": "Bir etiketi siler",
+	"help.taggadd": "Yeni bir etiket ekler",
+	"help.taglist": "Bütün etiketleri listeler",
+	"help.transfer": "Devredilmiş bir talebi başka kullanıcıya aktarır",
+	"help.unclaim": "Talebin devredilmesini kaldırır",
+	"help.viewstaff": "Yetkilendirilmiş kullanıcı ve rolleri listeler",
+	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
+	"open.success": "Talebin oluşturuldu: %s",
+	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
+	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
+	"setup.auto.completed": "Kurulum tamamlandı! Yönetim paneli için [buraya tıklayın] (https://dashboard.ticketsbot.net/manage/%d/panels) ve yetkili arkadaşlarınıza <@&%d> ve <@&%d> rollerini verin",
+	"setup.auto.roles.failure": "Rolleri yönet iznine sahip değil",
+	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
+	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
+	"setup.auto.transcript.success": "<#%d> adlı kanal oluşturuldu",
+	"setup.category.invalid": "Bir [**Kanal Kategori**] adı belirlemelisiniz. Kanal kategorisi nasıl açılır örnek: (https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101) \\n**Yada kısaca örnek:** `/setup category Tickets` Komutunu kullanabilirsiniz",
+	"setup.category.success": "Bilet kategori kanalı `%s` olarak değiştirildi",
+	"setup.info.archive_channel": "Lütfen talepler kapatıldıktan sonra talep kayıtlarının gönderilmesini istediğiniz kanalı belirtin.\nÖrneğin: `#kayıtlar`",
+	"setup.info.auto": "Seçenekleri otomatik olarak belirler ve gerekli kanalları oluşturur",
+	"setup.info.category": "Talep kanallarının hangi **kanal kategorisi** altında oluşmasını istiyorsanız o kategorinin **adını** belirtin.",
+	"setup.info.choose": "Lütfen bir seçenek belirleyin. Hızlı bir şekilde seçenek belirlemek için `/setup` yada `/setup auto` komutunu kullanabilirsiniz ince ayar için diğer komutları kullanınız",
+	"setup.info.dashboard": "[dashboard](https://dashboard.ticketsbot.net) Linkten bilet panelini açarak daha fazla ayarlara ulaşabilirsiniz",
+	"setup.info.panels": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) Tepki paneli oluşturmak için linki ziyaret edin",
+	"setup.info.prefix": "Botun komut ön ekini değiştirmek için `/setup prefix ` komutunu kullanın `/setup prefix -` komutunu kullanırsanız botun ön eki - olur",
+	"setup.info.ticket_limit": "Bir kullanıcının tek seferde açabileceği destek talebi sayısını ayarlamak için: `/setup limit 3` komutunu kullanınız",
+	"setup.info.transcripts": "Destek taleblerinin transcriptlerinin gönderileceği kanalı ayarlar.\\n**Örnek:** `/setup transcripts #logs`",
+	"setup.info.welcome_message": "Talep açıldığı zaman bot tarafından gönderilmesini istediğiniz mesajı yazın.",
+	"setup.prefix.success": "Komut ön eki `%s` olarak değiştirildi. Bilet açmak için `%sopen` komutunu kullanabilirsiniz",
+	"setup.ticket_limit.success": "Bilet açma sayısı `%d` olarak güncellendi",
+	"setup.transcript.invalid": "Sunucuda geçerli bir kanaldan bahsetmelisiniz (ör. <#%d>)\\n**Örnek:** `/setup transcripts #logs`",
+	"setup.transcript.success": "Transcripts kanalı <#%d> olarak değiştirildi",
+	"setup.welcome_message.invalid": "Karşılama mesajları maksimum 1024 karakter uzunluğunda olmalıdır. \\n **Örnek** `/setup welcomemessage destek talebi açtığınız için teşekkürler!` Web panelden daha kolay şekilde karşılama mesajınızı düzenleyebilirsiniz",
+	"setup.welcome_message.success": "Karşılama mesajı güncellendi. Yeni karşılama mesajını görmek için destek talebi oluşturun",
+	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](https://discord.gg/bh6aAfP) katılın",
+	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
+	"commands.autoclose.configure": "Otomatik kapatma ayarını değiştirmek için [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) ziyaret edin",
+	"help.autoclose": "Otomatik bilet kapatma ile ilgili komutlar",
+	"help.autoclose.exclude": "Geçerli biletin otomatik kapatılmasını devre dışı bırakır",
+	"help.autoclose.configure": "Otomatik kapatma ile ilgili ayarları düzenleyin",
+	"commands.autoclose.exclude.success": "Bu biletin otomatik kapanması devre dışı bırakıldı",
+	"commands.claim.no_permission": "Sadece destek ekibi bilete destek verebilir",
+	"commands.open.from": "Bu bilet [bu mesajdan](%s) açıldı.\n\n<@%d> <#%d> içinde şunları söyledi:\n```%s```",
+	"commands.open.from.moved": "Görüşme Şu bilete taşındı: (<#%d>)",
+	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
+	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
+	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin",
+	"commands.close_request.with_reason": "<@%d> Biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin",
+	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
+	"commands.close_request.denied": "<@%d> Destek talebini kapatma isteğini reddetti",
+	"generic.error": "Hata",
+	"feedback.disabled": "Bu sunucuda geri bildirim devre dışı bırakıldı",
+	"feedback.success": "Geri bildiriminiz kaydedildi",
+	"generic.success": "Başarılı",
+	"button.guild_only": "Bu düğme bir sunucuda kullanılmalıdır",
+	"button.dms_only": "Bu düğme doğrudan mesajlarda kullanılmalıdır",
+	"commands.tag.generic": "Etiket",
+	"commands.tags.delete.success": "`%s` Etiketi silindi",
+	"generic.ticket": "Bilet",
+	"generic.title.premium_only": "Premiumlara özel komut",
+	"generic.admin": "Yönetici",
+	"commands.tags.create.success": "Etiket oluşturuldu. `/tag %s` komutunu kullanarak etiketi kullanabilirsiniz",
+	"generic.title.about": "Hakkında",
+	"generic.title.vote": "Oy",
+	"generic.title.tags": "Etiketler",
+	"generic.title.autoclose": "Otomatik kapat",
+	"generic.title.invite": "Davet",
+	"generic.title.close": "Kapat",
+	"generic.title.claim": "Talep",
+	"generic.title.blacklisted": "Kara listeye alındı",
+	"generic.title.blacklist": "Karaliste",
+	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
+	"commands.blacklist.add.success": "<@%d> Kara listeye alındı",
+	"commands.blacklist.remove.success": "<@%d> kara listeden çıkartıldı",
+	"generic.title.add_admin": "Yönetici ekle",
+	"generic.title.add_support": "Destek ekle",
+	"generic.title.remove_admin": "Yöneticiyi kaldır",
+	"generic.title.remove_support": "Desteği sonlandır",
+	"commands.addsupport.success": "Destek yetkilisi başarıyla eklendi",
+	"generic.title.language": "Dil",
+	"commands.removesupport.success": "Destek yetkilisi başarıyla kaldırıldı",
+	"commands.addadmin.success": "Yönetici başarıyla eklendi",
+	"commands.removeadmin.success": "Yönetici yetkisi başarıyla kaldırıldı",
+	"generic.title.setup": "Kurulum",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Kontrol Paneli",
+	"generic.title.rename": "İsim değiştir",
+	"generic.title.remove": "Sil",
+	"generic.title.help": "Yardım",
+	"generic.title.close_confirmation": "Kapatmayı onayla",
+	"close.confirmation": "Destek talebini kapatmak istediğinize eminmisiniz?",
+	"generic.title.close_request": "İsteği kapat",
+	"commands.close_request.accept": "Kabul et ve kapat",
+	"commands.close_request.deny": "Reddet ve açık tut",
+	"commands.premium.success": "Premium **%d** günlüğüne aktifleştirildi",
+	"generic.title.claimed": "Destek Ver",
+	"generic.title.unclaimed": "Destek Vermeyi Sonlandır",
+	"generic.title.add": "Ekle",
+	"commands.add.success": "<@%d> Adlı kişi <#%d> Kanalına eklendi",
+	"commands.remove.success": "<@%d> Adlı kişi <#%d> Kanalından kaldırıldı",
+	"open.ratelimited": "Sunucuda destek talepleri çok hızlı açılıyor",
+	"commands.claim.thread": "Discord sınırlamaları nedeniyle, hak talebinde bulunmak konuları desteklemez",
+	"generic.join_support_server": "Destek sunucusuna katılın",
+	"commands.open.guild_channel_limit": "Sunucun discordun belirlemiş olduğu maksimum kanal sayısı olan 500'e ulaştı",
+	"commands.open.missing_form_answer": "Önce `%s` sorusuna cevap vermelisiniz",
+	"generic.use_slash_commands": "Uyarı: 31 Ağustostan sonra '/' eğik çizgi kullanarak komut yazmalısınız. 31 Ağustostan sonra eğik çizgi olmadan komut veremiceksiniz.",
+	"close.no_permission": "Bu talebi kapatma yetkin yok",
+	"": {
+		"generic.title.close_with_reason": "Bileti Nedeniyle Kapat",
+		"generic.reason": "Neden"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "Biletin kapanma sebebi: \"Çözüldü\""
+		},
+		"success": "Bilet <@%d> tarafından kapatıldı"
+	},
+	"commands": {
+		"open": {
+			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
+			"success": "Bu bilet <@%d> tarafından, `%s` paneline geçirildi"
+		},
+		"blacklist": {
+			"staff": "Yönetici üyeler kara listeye alınamaz",
+			"add_role": {
+				"success": "<@&%d> kara listeye alındı",
+				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
+			},
+			"add": {
+				"limit": "Sınıra ulaştınız, daha fazla kullanıcıyı kara listeye ekleyemezsiniz (%d). Bunun yerine, bir rol eklemeyi düşünün"
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "Bu biletin, ayarlanmış bir \"hoş geldiniz\" mesajı yok",
+			"content": "Biletin en üstüne gitmek için aşağıdaki düğmeye tıklayın"
+		},
+		"addsupport": {
+			"confirm": "Lütfen %s'yi varsayılan destek temsilcisi ekibine eklemek istediğinizi onaylayın",
+			"everyone": "`@everyone`'ı yönetici olarak ekleyemezsiniz"
+		},
+		"addadmin": {
+			"confirm": "Lütfen %s'yi bot yöneticisi olarak eklemek istediğinizi onaylayın"
+		},
+		"tags": {
+			"create": {
+				"limit": "Etiket sınırına ulaştınız (%d)"
+			}
+		},
+		"language": {
+			"content": "Mevcut diller ve çeviri ilerlemeleri aşağıdaki gibidir:\n%s",
+			"success": "Sunucu dili **%s** (%s) olarak değiştirildi",
+			"select": "Bir dil seçin (%c-%c)"
+		},
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.ticketsbot.net/features/thread-mode) ziyaret edin",
+			"success": "",
+			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "Bilet bulunamadı",
+			"no_permission": "Bu bileti yeniden açma izniniz yok",
+			"already_open": "Bu bilet zaten açık",
+			"not_thread": "Sadece alt başlıklar yeniden açılabilir",
+			"thread_deleted": "Bilet kalıcı olarak silindi",
+			"success": "%d bileti yeniden açıldı: <#%d>",
+			"in_ticket": "Bu bilet <@%d> tarafından yeniden açıldı"
+		},
+		"premium": {
+			"key": "Anahtar",
+			"check_again": "Tekrar kontrol ediniz",
+			"subscription_found": "",
+			"subscription_found_content": "",
+			"activate_key": "",
+			"checking": "",
+			"please_wait": "Lütfen bekleyin...",
+			"success_after_check": "",
+			"link_patreon_account": "",
+			"no_subscription": "",
+			"open_form": "",
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": "",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "Bilet Paneli Değişti",
+			"jump_to_top": "Yukarı Çık",
+			"reopened": "Bilet Yeniden Açıldı",
+			"ticket_closed": "Bilet Kapatıldı"
+		},
+		"click_here": "Buraya Tıkla",
+		"confirm": "Onayla",
+		"website": ""
+	},
+	"help": {
+		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",
+		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
+		"on_call": "",
+		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar"
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.ticketsbot.net) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "Bilet bildirim kanalı, bir metin kanalı olmalıdır",
+			"success": "Alt başlık modu etkinleştirildi",
+			"disabled": "Alt başlık modu devre dışı bırakıldı"
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "Bu bilet zaten kapatıldı",
+			"no_permission": "Bu bilet türünü görüntüleme izniniz yok",
+			"already_joined": "Bu bilete zaten katıldınız (<#%d>)",
+			"success": "Sizi bilete ekledi: %d"
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "",
+		"panel_force_disabled": "",
+		"panel_disabled": ""
+	}
+}

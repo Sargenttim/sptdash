@@ -1,0 +1,330 @@
+{
+	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Type `/hjælp`\\nGå i gang med at bruge `/setup`",
+	"commands.add.no_channel": "Du skal nævne en ticket kanal for at tilføje brugeren(brugerne) i",
+	"commands.add.no_members": "Du skal nævne brugere at tilføje til denne ticket",
+	"commands.add.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
+	"commands.add.not_ticket": "Den nævnte kanal er ikke en ticket kanal",
+	"commands.addadmin.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
+	"commands.addadmin.owner": "Server ejeren er allerede administrator",
+	"commands.addsupport.no_members": "Du er nød til at nævne en bruger eller en rolle for at give denne tilladelse til at udføre support",
+	"commands.blacklist.no_members": "For at give aktivere blacklist funktionen, skal du nævne en bruger",
+	"commands.blacklist.self": "Du kan ikke blackliste dig selv",
+	"commands.claim.success": "Din ticket til blive håndteret af %s",
+	"commands.invite": "[Klik her](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "Du skal vælge en sprog kode eller et flag. Tilgængelige sprog:\\n%s",
+	"commands.open.ticket_limit": "Du kan kun åbne %d %s på en gang",
+	"commands.open.too_many_tickets": "Der er for mange tickets i kategorien. Bed en administrator om at lukke eller flytte nogen, til en anden kategori",
+	"commands.panel": "Besøg <https://dashboard.ticketsbot.net/manage/%d/panels> for at konfigurere et panel",
+	"commands.premium": "Du kan købe et premium abonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium giver mange fordele, såsom s:\\n```diff\\n+ skab ubegrænsede antal paneler\\n+ Tilpas bot navn, avaterer og status (whitelabel)\\n+ Detaljeret statistik om serveren, brugere og supportpersonalet\\n+ Ingen reklamer i fodnoten af beskeder\\n+ Support udvikling og hjælp mig med at betale server omkostningerne\\n+```\\n\\nAlternativt, kan du stemme på <https://vote.ticketsbot.net> for at få premium gratis i 24 timer",
+	"commands.premium.already_premium": "Denne guild har allerede premium abonnement. Den udløber %s",
+	"commands.premium.invalid_key": "Ugyldig nøgle. Sørg for at du har kopieret den korrekt.",
+	"commands.remove.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
+	"commands.remove.staff": "Du kan ikke fjerne personale fra en ticket",
+	"commands.removeadmin.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
+	"commands.removeadmin.owner": "Ejeren af guilden skal være administrator",
+	"commands.removeadmin.self": "Du kan ikke tilbagekalde dine egne rettigheder",
+	"commands.removesupport.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
+	"commands.rename.missing_name": "Du skal angive et nyt navn til denne ticket",
+	"commands.rename.success": "Denne ticket er blevet omdøbt til <#%d>",
+	"commands.tags.create.already_exists": "Et tag med ID'et%s` findes allerede. Du kan slette tagget ved hjælp af `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "Du skal angive et tag ID og indhold",
+	"commands.tags.create.too_long": "Tag ID'et kan ikke være længere end 16 tegn",
+	"commands.tags.delete.invalid_arguments": "Du skal angive et tag-ID for at slette",
+	"commands.tags.delete.not_exist": "Et tag med ID'et `%s` kunne ikke findes",
+	"commands.tags.get.invalid_arguments": "Du skal angive ID'et for tagget. For mere hjælp med tags, besøg <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_tag": "Ugyldigt tag. For mere hjælp med tags, besøg <https://ticketsbot.net/tags>.",
+	"commands.tags.list": "ID'er for alle tags: \\n%s\\nFor at se indholdet af et tag, kør `%stag <ID>`",
+	"commands.unclaim.not_claimed": "Denne ticket er ikke taget",
+	"commands.unclaim.not_claimer": "Kun administratorer og den bruger, der har gjort krav denne ticket, kan frafalde kravet igen",
+	"commands.unclaim.success": "Alle supportrepræsentanter kan nu svare på denne ticket",
+	"commands.vote": "Klik her for at stemme på 24 timers gratis premium:\\n<https://vote.ticketsbot.net>",
+	"generic.invalid_argument": "Ugyldigt argument: referér til brug",
+	"generic.invalid_user": "Kunne ikke finde brugeren",
+	"generic.no_permission": "Du har ikke tilladelse til at udføre denne handling",
+	"generic.not_ticket": "Dette er ikke en ticketkanal",
+	"generic.owner_only": "Denne kommando er reserveret til ejeren af denne bot",
+	"help.about": "Giver dig information om denne bot",
+	"help.add": "Tilføjer en bruger til en ticket",
+	"help.addadmin": "Giver en bruger eller en rolle administratorrettigheder",
+	"help.addsupport": "Tilføjer en bruger eller rolle som en supportrepræsentant",
+	"help.admin": "Bot håndtering",
+	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
+	"help.admin.check_premium": "Kontroller premium-status på en server",
+	"help.admin.force_close": "Sætter tilstanden af de angivne tickets til lukket",
+	"help.admin.generate_premium": "Generer premium nøgler",
+	"help.admin.get_owner": "Henter ejeren af en server",
+	"help.admin.unblacklist": "Fjerner en guild fra blacklisten",
+	"help.admin.update_schema": "Opdaterer databaseskemaet",
+	"help.blacklist": "Angiver om brugere har tilladelse til at interagere med botten",
+	"help.cancel": "Annullerer opsætningsprocessen",
+	"help.claim": "Tildel en enkelt ansat til en ticket",
+	"help.close": "Lukker den aktuelle ticket",
+	"help.help": "Viser dig en liste over kommandoer",
+	"help.invite": "Laver et invitationslink til botten",
+	"help.language": "Ændrer det sprog, denne bot bruger",
+	"help.managetags": "Tilføj, slet eller se tags",
+	"help.open": "Åbner en ny ticket",
+	"help.panel": "Opretter et panel for at gøre det muligt for brugere at åbne en ticket med 1 klik",
+	"help.premium": "",
+	"help.remove": "Fjerner en bruger fra blacklisten",
+	"help.removeadmin": "Tilbagekaldelse af en bruger eller rolles administratorrettigheder",
+	"help.removesupport": "Tilbagekalder en bruger eller en rolles supportrepræsentant- rettigheder",
+	"help.rename": "Omdøber den aktuelle ticket",
+	"help.setup": "Tillader dig at konfigurere en bot på en nem måde",
+	"help.stats": "Viser dig statistikker om brugere, supportpersonale og serveren",
+	"help.statsserver": "Viser dig statistik om serveren",
+	"help.tag": "Sender et meddelelsesstykke",
+	"help.tagdelete": "Sletter et tag",
+	"help.taggadd": "Tilføjer et nyt tag",
+	"help.taglist": "Liste over alle tags",
+	"help.transfer": "Overfører en krævet ticket til en anden bruger",
+	"help.unclaim": "Fjerner kravet på den aktuelle ticket",
+	"help.viewstaff": "Viser en liste over medarbejdere og roller",
+	"help.vote": "Giver dig et link til at stemme på gratis premium",
+	"open.success": "Åbnede en ny ticket: %s",
+	"setup.auto.category.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
+	"setup.auto.category.success": "Oprettet en ticket kategori",
+	"setup.auto.completed": "Opsætning fuldført! Klik på [here](https://dashboard.ticketsbot.net/manage/%d/panels) for at opsætte et reaktionspanel, og tilføje rollerne <@&%d> og <@&%d> til dine medarbejdere",
+	"setup.auto.roles.failure": "Jeg mangler tilladelsen `Administrer roller`",
+	"setup.auto.roles.success": "Oprettet `Tickets Administrator` & `Tickets Support` roller",
+	"setup.auto.transcript.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
+	"setup.auto.transcript.success": "Oprettede <#%d> kanal",
+	"setup.category.invalid": "Du skal angive navnet på en [**kanalkategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Eksempel:** `/setup category Tickets`",
+	"setup.category.success": "Denne ticket kanals kategori er blevet ændret til `%s`",
+	"setup.info.archive_channel": "Angiv venligst at du ønsker at få ticket logs tilsendt, efter tickets er blevet lukket\\nEksempel: `#logs`",
+	"setup.info.auto": "Vælger automatisk tilvalg og laver de krævede kanaler",
+	"setup.info.category": "Skriv **navn** på **kanalkategorien**, som du gerne vil have tickets oprettet under",
+	"setup.info.choose": "Vælg venligst en mulighed. Du kan bruge `/setup` eller `/setup auto` for at komme hurtigt igang, eller bruge de andre kommandoer til at finjustere indstillinger",
+	"setup.info.dashboard": "Flere indstillinger er tilgængelige på [dashboard](https://dashboard.ticketsbot.net)",
+	"setup.info.panels": "Besøg [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) for at oprette reaktionspaneler",
+	"setup.info.prefix": "Ændrer præfikset (f.eks. `t!`) for botten.\\n**Eksempel:** `/setup prefix -`",
+	"setup.info.ticket_limit": "Sætter det maksimale antal tickets en **enkelt bruger** kan åbne **på én gang**.\\n**Eksempel:** `/setup limit 3`",
+	"setup.info.transcripts": "Vælger hvilken kanal som transkriptionerne skal sendes til.\\n**Eksempel:** `/setup transcripts #logs`",
+	"setup.info.welcome_message": "Skriv den besked, der skal sendes af botten, når en ticket åbnes",
+	"setup.prefix.success": "Præfikset er blevet ændret til `%s`. Du kan bruge `%sopen` for at åbne en ticket",
+	"setup.ticket_limit.success": "Grænsen for antallet af tickets er blevet opdateret til `%d`",
+	"setup.transcript.invalid": "Du skal nævne en gyldig kanal på serveren (f.eks. <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
+	"setup.transcript.success": "Transskriptionskanalen er blevet ændret til <#%d>",
+	"setup.welcome_message.invalid": "Velkomstbeskeder skal højst være 1024 tegn lange\\n**Eksempel:**`/setup welcomemessage Tak for at åbne en ticket!`",
+	"setup.welcome_message.success": "Velkomstbeskeden er blevet opdateret. Åbn en ticket for at se den i aktion",
+	"commands.language.help_wanted": "Taler du et andet sprog? Tilmeld dig vores [supportserver](https://discord.gg/bh6aAfP) hvis du er interesseret i at hjælpe med at oversætte botten til flere sprog",
+	"commands.rename.too_long": "Kanal navne kan ikke være længere end 100 tegn",
+	"commands.autoclose.configure": "Besøg [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) for at ændre indstillingerne for automatisk lukning af tickets",
+	"help.autoclose": "Autoluk relaterede kommandoer",
+	"help.autoclose.exclude": "Udelukker den aktuelle ticket fra at blive lukket automatisk",
+	"help.autoclose.configure": "Rediger relaterede indstillinger for autolukning",
+	"commands.autoclose.exclude.success": "Denne ticket er blevet udelukket fra automatisk at blive lukket",
+	"commands.claim.no_permission": "Kun personalet kan kræve tickets",
+	"commands.open.from": "Denne ticket blev åbnet fra [denne besked](%s).\n\n<@%d> sagde i <#%d>:\n```%s``",
+	"commands.open.from.moved": "Samtalen er blevet flyttet til en ticket (<#%d>)",
+	"help.close_request": "Sender en besked, der beder brugeren om at bekræfte, at den gældende ticket kan blive lukket",
+	"close.reason_too_long": "Årsagen kan ikke være længere end 255 tegn",
+	"commands.close_request.no_reason": "<@%d> har anmodet om at lukke denne ticket.\n\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
+	"commands.close_request.with_reason": "<@%d> har anmodet om at lukke denne ticket. Årsag:\n```\n%s\n```\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
+	"commands.close_request.no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
+	"commands.close_request.denied": "<@%d> afviste at lukke denne ticket",
+	"generic.error": "Fejl",
+	"feedback.disabled": "Denne server har feedback deaktiveret",
+	"feedback.success": "Din feedback er blevet sendt",
+	"generic.success": "Succes",
+	"button.guild_only": "Denne knap skal bruges på en server",
+	"button.dms_only": "Denne knap skal bruges i direkte beskeder",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tagget `%s er blevet slettet",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Kommando",
+	"generic.admin": "Administrator",
+	"commands.tags.create.success": "Tag oprettet - du kan bruge det ved at indtaste `/tag %s`",
+	"generic.title.about": "Om",
+	"generic.title.vote": "Stem",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoluk",
+	"generic.title.invite": "Inviter",
+	"generic.title.close": "Luk",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklistet",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "Du er ikke whitelistet på denne server",
+	"commands.blacklist.add.success": "<@%d> er blevet blacklistet",
+	"commands.blacklist.remove.success": "<@%d> er blevet fjernet fra blacklisten",
+	"generic.title.add_admin": "Tilføj administrator",
+	"generic.title.add_support": "Tilføj Support",
+	"generic.title.remove_admin": "Fjern administrator",
+	"generic.title.remove_support": "Fjern Support",
+	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet",
+	"generic.title.language": "Sprog",
+	"commands.removesupport.success": "Supportrepræsentant blev fjernet",
+	"commands.addadmin.success": "Administrator tilføjet",
+	"commands.removeadmin.success": "Administrator fjernet",
+	"generic.title.setup": "Opsætning",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Omdøb",
+	"generic.title.remove": "Fjern",
+	"generic.title.help": "Hjælp",
+	"generic.title.close_confirmation": "Bekræft lukning",
+	"close.confirmation": "Bekræft venligst at du ønsker at lukke denne ticket",
+	"generic.title.close_request": "Anmodning om at lukke",
+	"commands.close_request.accept": "Accepter & Luk",
+	"commands.close_request.deny": "Afvis & Behold Åben",
+	"commands.premium.success": "Premium er blevet aktiveret i **%d** dage",
+	"generic.title.claimed": "Taget Ticket",
+	"generic.title.unclaimed": "Ukrævet Ticket",
+	"generic.title.add": "Tilføj",
+	"commands.add.success": "<@%d> er blevet tilføjet til <#%d>",
+	"commands.remove.success": "<@%d> er blevet fjernet fra <#%d>",
+	"open.ratelimited": "Tickets bliver åbnet for hurtigt på denne server",
+	"commands.claim.thread": "På grund af Discords begrænsninger, understøtter tråde ikke",
+	"generic.join_support_server": "Join support serveren",
+	"commands.open.guild_channel_limit": "Denne server har nået Discord's grænse på 500 kanaler",
+	"commands.open.missing_form_answer": "Du skal besvare spørgsmålet `%s`",
+	"generic.use_slash_commands": "Advarsel: Du SKAL skifte til slashkommandoer senest den 31 August. Efter denne dato vil meddelelsesbaserede kommandoer stoppe med at virke.",
+	"close.no_permission": "Du har ikke tilladelse til at lukke denne ticket",
+	"": {
+		"generic.title.close_with_reason": "Luk Med Årsag",
+		"generic.reason": "Årsag"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "Årsag til lukning af denne ticket, fx \"Løst\""
+		},
+		"success": ""
+	},
+	"commands": {
+		"open": {
+			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "Ugyldigt panel: Du skal vælge et fra listen",
+			"success": "Denne Ticket er blevet flyttet til panelet `%saf <@%d>"
+		},
+		"blacklist": {
+			"staff": "Personale kan ikke blive blacklisted",
+			"add_role": {
+				"success": "",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "",
+			"content": ""
+		},
+		"addsupport": {
+			"confirm": "",
+			"everyone": ""
+		},
+		"addadmin": {
+			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
+		},
+		"language": {
+			"content": "",
+			"success": "",
+			"select": ""
+		},
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
+		},
+		"premium": {
+			"key": "",
+			"check_again": "",
+			"subscription_found": "",
+			"subscription_found_content": "",
+			"activate_key": "",
+			"checking": "",
+			"please_wait": "",
+			"success_after_check": "",
+			"link_patreon_account": "",
+			"no_subscription": "",
+			"open_form": "",
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": "",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "Ticked panel skiftet",
+			"jump_to_top": "",
+			"reopened": "",
+			"ticket_closed": ""
+		},
+		"click_here": "",
+		"confirm": "",
+		"website": ""
+	},
+	"help": {
+		"switch_panel": "",
+		"jump_to_top": "",
+		"on_call": "",
+		"reopen": ""
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": ""
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": ""
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "",
+		"panel_force_disabled": "",
+		"panel_disabled": ""
+	}
+}

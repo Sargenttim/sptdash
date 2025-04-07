@@ -1,0 +1,330 @@
+{
+	"commands.about": "Tickets es un bot de tickets y soporte fácil de usar y altamente configurable.\\nServidor de soporte: https://discord.gg/VtV3rSk\\nComandos: Escribe `/help` \\nComienza ejecutando` /setup`",
+	"commands.add.no_channel": "Debe mencionar un canal de ticket para agregar a los usuarios",
+	"commands.add.no_members": "Debe mencionar miembros para agregar al ticket",
+	"commands.add.no_permission": "No tienes permiso para agregar personas a este ticket",
+	"commands.add.not_ticket": "El canal mencionado no es un ticket",
+	"commands.addadmin.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de administrador ",
+	"commands.addadmin.owner": "El propietario del servidor ya es un administrador",
+	"commands.addsupport.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de representante de soporte ",
+	"commands.blacklist.no_members": "Debe mencionar a un usuario para alternar el estado de la lista negra ",
+	"commands.blacklist.self": "No puedes ponerte en la lista negra",
+	"commands.claim.success": "Su ticket será manejado por %s",
+	"commands.invite": "[Haga clic aquí](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "Debes especificar un código de idioma o una marca. Idiomas disponibles:\\n%s",
+	"commands.open.ticket_limit": "Solo puede abrir %d %s a la vez",
+	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de tickets. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
+	"commands.panel": "Visita <https://dashboard.ticketsbot.net/manage/%d/panels> para configurar un panel",
+	"commands.premium": "Puede comprar una suscripción premium en <https://www.patreon.com/ticketsbot>.\\nPremium ofrece muchos beneficios, tales como:\\n```diff\\n+ Crear paneles de tickets ilimitados\\n+ Personalizar nombre de bot, avatar y estado (whitelabel)\\n+ Estadísticas detalladas sobre el servidor, los usuarios y el staff de soporte\\n+ Sin marca en el pie de página de los mensajes\\n+ Desarrollo de soporte y ayuda para pagar los costos del servidor\\n```\\n\\n Alternativamente, puede votar en <https://vote.ticketsbot.net> para obtener premium gratis durante 24 horas",
+	"commands.premium.already_premium": "Este servidor ya tiene premium. Caduca el %s",
+	"commands.premium.invalid_key": "Tecla inválida. Asegúrese de haberlo copiado correctamente",
+	"commands.remove.no_permission": "No tienes permiso para eliminar personas de este ticket",
+	"commands.remove.staff": "No puede eliminar staff de un ticket",
+	"commands.removeadmin.no_members": "Debe mencionar un usuario o nombrar un rol para revocar los privilegios de administrador",
+	"commands.removeadmin.owner": "El dueño del servidor debe ser administrador",
+	"commands.removeadmin.self": "No puede revocar tus propios privilegios",
+	"commands.removesupport.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de representante de soporte ",
+	"commands.rename.missing_name": "Debe especificar un nuevo nombre para este ticket",
+	"commands.rename.success": "Este ticket ha cambiado de nombre a <#%d>",
+	"commands.tags.create.already_exists": "Ya existe una respuesta predefinida con la ID `%s`. Puedes eliminar la respuesta predefinida usando `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "Debe especificar un ID de etiqueta y contenido",
+	"commands.tags.create.too_long": "Las ID de etiqueta no pueden tener más de 16 caracteres",
+	"commands.tags.delete.invalid_arguments": "Debe especificar una ID de etiqueta para eliminar",
+	"commands.tags.delete.not_exist": "No se pudo encontrar una etiqueta con el ID `%s`",
+	"commands.tags.get.invalid_arguments": "Debe proporcionar la identificación de la etiqueta. Para obtener más ayuda con la etiqueta, visita <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para obtener más ayuda con las etiquetas, visita <https://ticketsbot.net/tags>.",
+	"commands.tags.list": "ID para todas las etiquetas: \\n%s\\nPara ver el contenido de una etiqueta, ejecuta `%stag <ID>`",
+	"commands.unclaim.not_claimed": "Este ticket no es reclamado",
+	"commands.unclaim.not_claimer": "Solo los administradores y el usuario que reclamó el ticket pueden reclamar el ticket",
+	"commands.unclaim.success": "Todos los representantes de soporte ahora pueden responder al ticket",
+	"commands.vote": "Haga clic aquí para votar por 24 horas de premium gratis:\\n<https://vote.ticketsbot.net> .",
+	"generic.invalid_argument": "Argumento no válido: consulte el uso",
+	"generic.invalid_user": "No se pudo encontrar el usuario objetivo",
+	"generic.no_permission": "No tienes permiso para esto",
+	"generic.not_ticket": "Este no es un canal de tickets",
+	"generic.owner_only": "Este comando está reservado solo para el propietario del bot",
+	"help.about": "Te da información sobre el bot",
+	"help.add": "Añade un usuario a un ticket",
+	"help.addadmin": "Otorga privilegios de administrador a un usuario o rol",
+	"help.addsupport": "Agrega un usuario o rol como representante de soporte",
+	"help.admin": "Gestión del bot",
+	"help.admin.blacklist": "Incluir un usuario en la lista negra para que no pueda usar el bot",
+	"help.admin.check_premium": "Comprobar el estado premium de un servidor",
+	"help.admin.force_close": "Estable el estado de los tickets proporcionados en cerrado",
+	"help.admin.generate_premium": "Genera claves premium.",
+	"help.admin.get_owner": "Obtiene el líder de un servidor.",
+	"help.admin.unblacklist": "Eliminar un usuario de la lista negra del servidor",
+	"help.admin.update_schema": "Actualiza el esquema de la base de datos.",
+	"help.blacklist": "Alterna si los usuarios pueden interactuar con el bot.",
+	"help.cancel": "Cancela el proceso de configuración",
+	"help.claim": "Asigna un solo miembro del staff a un ticket.",
+	"help.close": "Cierra el ticket actual.",
+	"help.help": "Te muestra una lista de comandos",
+	"help.invite": "Proporciona un enlace de invitación del bot",
+	"help.language": "Cambia el idioma que utiliza el bot",
+	"help.managetags": "Agrega, elimina o enumera etiquetas",
+	"help.open": "Abre un nuevo ticket",
+	"help.panel": "Crea un panel para permitir a los usuarios abrir un ticket con 1 click",
+	"help.premium": "Ejecute este comando después de comprar premium para activarlo",
+	"help.remove": "Elimina un usuario de un ticket",
+	"help.removeadmin": "Revoca los privilegios de administrador de un usuario o rol",
+	"help.removesupport": "Revoca los privilegios de representante de soporte de un usuario o rol",
+	"help.rename": "Renombra el ticket actual",
+	"help.setup": "Te permite configurar fácilmente el bot",
+	"help.stats": "Muestra estadísticas sobre usuarios, staff de soporte y el servidor",
+	"help.statsserver": "Muestra estadísticas sobre el servidor",
+	"help.tag": " Envía un fragmento de mensaje",
+	"help.tagdelete": "Elimina una etiqueta",
+	"help.taggadd": "Agrega una nueva etiqueta",
+	"help.taglist": "Lista todas las etiquetas",
+	"help.transfer": "Transfiere un ticket reclamado a otro usuario",
+	"help.unclaim": " Elimina el reclamo en el ticket actual",
+	"help.viewstaff": "Enumera los miembros del staff y los roles",
+	"help.vote": " Te da un enlace para votar por una premium gratis",
+	"open.success": "Abrió un nuevo ticket: %s",
+	"setup.auto.category.failure": "Me falta el permiso `Gestionar canales`",
+	"setup.auto.category.success": "Categoría de tickets creada",
+	"setup.auto.completed": "¡Configuración completada! Haz clic [here](https://dashboard.ticketsbot.net/manage/%d/panels) para configurar un panel de reacciones, y añade los roles <@&%d> y <@&%d> a los miembros de tu equipo",
+	"setup.auto.roles.failure": "Me falta el permiso `Gestionar roles`",
+	"setup.auto.roles.success": "Creados los roles `Tickets Admin` y `Tickets Support`",
+	"setup.auto.transcript.failure": "Me falta el permiso `Gestionar canales`",
+	"setup.auto.transcript.success": "Creado el canal <#%d>",
+	"setup.category.invalid": "Debes proporcionar el nombre de una [**categoría de canales**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Ejemplo:**`/setup category Tickets`",
+	"setup.category.success": "La categoría del canal de tickets ha sido cambiada a `%s`",
+	"setup.info.archive_channel": "Especifica que deseas que se envíen los registros de tickets después de que se hayan cerrado los tickets\\nEjemplo: `#logs`",
+	"setup.info.auto": "Selecciona automáticamente las opciones y crea los canales necesarios",
+	"setup.info.category": "Escribe el **nombre** de la **categoría de canal** en la que desea que se creen tickets",
+	"setup.info.choose": "Por favor selecciona una opción. Puedes usar `/setup` o `setup auto` para configurarlo rápido o usar los otros comandos para ajustar detalladamente las opciones",
+	"setup.info.dashboard": "Más ajustes disponibles en [dashboard](https://dashboard.ticketsbot.net)",
+	"setup.info.panels": "Visita el [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) para crear un panel de reacciones",
+	"setup.info.prefix": "Cambia el prefijo (p. ej `t`) del bot.\\n**Ejemplo:** `/setup prefix -`",
+	"setup.info.ticket_limit": "Establece la cantidad máxima de tickets que **un usuario** puede tener abiertos **a la vez**.\\n'**Ejemplo:** `/setup limit 3`",
+	"setup.info.transcripts": "Estable el canal donde llegarán las transcripciones de los tickets.\\n**Ejemplo:** `/setup transcripts #logs`",
+	"setup.info.welcome_message": "Escribe el mensaje que debe enviar el bot cuando se abre un ticket",
+	"setup.prefix.success": "El prefijo ha cambiado de `%s`. Puedes usar `%sopen` para abrir un ticket",
+	"setup.ticket_limit.success": "El límite de tickets ha sido actualizado a `%d`",
+	"setup.transcript.invalid": "Debes mencionar un canal válido del servidor (p. ej <#%d>)\\n**Ejemplo:** `/setup transcripts #logs`",
+	"setup.transcript.success": "El canal para las transcripciones se ha cambiado a <#%d>",
+	"setup.welcome_message.invalid": "Los mensajes de bienvenida deben tener un máximo de 1024 caracteres de longitud\\n**Ejemplo:**`/setup welcomemessage ¡Gracias por abrir un ticket!`",
+	"setup.welcome_message.success": "El mensaje de bienvenida ha sido actualizado. Abre un ticket para verlo en acción",
+	"commands.language.help_wanted": "¿Hablas otro idioma? Únete a nuestro [servidor de soporte](https://discord.gg/bh6aAfP) si estás interesado en ayudar a traducir el bot a más idiomas",
+	"commands.rename.too_long": "Los nombres de los canales no pueden tener una longitud superior a 100 caracteres",
+	"commands.autoclose.configure": "Visita el [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) para cambiar las opciones de cierre automático",
+	"help.autoclose": "Comandos relacionados con el cierre automático",
+	"help.autoclose.exclude": "Excluye el ticket actual de ser cerrado automáticamente",
+	"help.autoclose.configure": "Editar ajustes relacionados al cierre automático",
+	"commands.autoclose.exclude.success": "Este ticket se ha excluido de ser cerrado automáticamente",
+	"commands.claim.no_permission": "Solo miembros del equipo pueden reclamar tickets",
+	"commands.open.from": "Este ticket fue abierto desde [este mensaje](%s).\n\n<@%d> dijo en <#%d>:\n```%s```",
+	"commands.open.from.moved": "La conversación se ha movido a un ticket (<#%d>)",
+	"help.close_request": "Envía un mensaje pidiendo al usuario que confirme que el ticket puede cerrarse",
+	"close.reason_too_long": "La razón no puede tener una longitud superior a 255 caracteres",
+	"commands.close_request.no_reason": "<@%d> ha solicitado cerrar este ticket.\n\nPor favor acepte o niegue usando los botones de abajo.",
+	"commands.close_request.with_reason": "<@%d> ha solicitado cerrar este ticket. Razón:\n```\n%s\n```\nPor favor acepte o niegue usando los botones de abajo.",
+	"commands.close_request.no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
+	"commands.close_request.denied": "<@%d> rechazó la solicitud de cierre",
+	"generic.error": "Error",
+	"feedback.disabled": "Este servidor tiene el feedback deshabilitado",
+	"feedback.success": "Tu feedback ha sido registrado",
+	"generic.success": "Éxito",
+	"button.guild_only": "Este botón debe ser usado en un servidor",
+	"button.dms_only": "Este botón debe ser usado en mensajes directos",
+	"commands.tag.generic": "Respuesta predefinida",
+	"commands.tags.delete.success": "La respuesta predefinida `%s` se ha eliminado",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Comando de sólo premium",
+	"generic.admin": "Administrador",
+	"commands.tags.create.success": "Etiqueta creada - puedes usarla ejecutando `/tag %s`",
+	"generic.title.about": "Acerca de",
+	"generic.title.vote": "Votar",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autocierre",
+	"generic.title.invite": "Invitar",
+	"generic.title.close": "Cerrar",
+	"generic.title.claim": "Reclamado",
+	"generic.title.blacklisted": "En la lista negra",
+	"generic.title.blacklist": "Lista negra",
+	"generic.error.blacklisted": "Estás en la lista negra de este servidor",
+	"commands.blacklist.add.success": "<@%d> se agregó a la lista negra",
+	"commands.blacklist.remove.success": "<@%d> se quitó de la lista negra",
+	"generic.title.add_admin": "Añadir administrador",
+	"generic.title.add_support": "Añadir Soporte",
+	"generic.title.remove_admin": "Eliminar administrador",
+	"generic.title.remove_support": "Remover Soporte",
+	"commands.addsupport.success": "Representante de soporte añadido con éxito",
+	"generic.title.language": "Idioma",
+	"commands.removesupport.success": "Representante de soporte removido con éxito",
+	"commands.addadmin.success": "Admin agregado con éxito",
+	"commands.removeadmin.success": "Admin removido con éxito",
+	"generic.title.setup": "Configurar",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Renombre",
+	"generic.title.remove": "Eliminar",
+	"generic.title.help": "Ayuda",
+	"generic.title.close_confirmation": "Confirmación de cierre",
+	"close.confirmation": "Por favor, confirma que quieres cerrar este ticket",
+	"generic.title.close_request": "Petición de cierre",
+	"commands.close_request.accept": "Aceptar y cerrar",
+	"commands.close_request.deny": "Rechazar y mantener abierto",
+	"commands.premium.success": "Se ha activado Premium por **%d** días",
+	"generic.title.claimed": "Ticket reclamado",
+	"generic.title.unclaimed": "Ticket liberado",
+	"generic.title.add": "Añadir",
+	"commands.add.success": "<@%d> ha sido añadid@ a <#%d>",
+	"commands.remove.success": "<@%d> ha sido removido/a de <#%d>",
+	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
+	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
+	"generic.join_support_server": "Únete al Servidor de Soporte",
+	"commands.open.guild_channel_limit": "Este servidor ha alcanzado el límite de Discord de 500 canales",
+	"commands.open.missing_form_answer": "Debes responder la pregunta `%s`",
+	"generic.use_slash_commands": "Advertencia: Se DEBE cambiar a comandos de diagonal para Agosto 31. Después de esta fecha, los comandos por mensaje dejarán de funcionar.",
+	"close.no_permission": "No tienes permiso de cerrar este ticket",
+	"": {
+		"generic.title.close_with_reason": "Cerrar con razón",
+		"generic.reason": "Razón"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "Razón de cierre del ticket, ejemplo: \"Resuelto\""
+		},
+		"success": "El ticket fue cerrado por <@%d>"
+	},
+	"commands": {
+		"open": {
+			"disabled": "El comando `/open` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket",
+			"threads": {
+				"cant_see_parent_channel": "No se pudo agregar a <@%d> al ticket: Asegúrese de que tenga permiso para ver el canal principal del hilo (<#%d>)"
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "Panel inválido: Debes seleccionar uno de la lista desplegable",
+			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>"
+		},
+		"blacklist": {
+			"staff": "Los miembros del Staff no se pueden agregar a la lista negra",
+			"add_role": {
+				"success": "<@&%d> se agregó a la lista negra",
+				"limit": "Has alcanzado el límite de roles en lista negra (%d)"
+			},
+			"add": {
+				"limit": "Has alcanzado el límite de usuarios en lista negra (%d): considera usar un rol en su lugar"
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "Este ticket no tiene un mensaje de bienvenida",
+			"content": "Haz clic en el botón de abajo para ir al inicio del ticket"
+		},
+		"addsupport": {
+			"confirm": "Por favor, confirma que quieres agregar a %s al equipo de soporte predeterminado",
+			"everyone": "No puedes agregar el rol `@everyone` como staff"
+		},
+		"addadmin": {
+			"confirm": "Por favor confirma que quieres agregar a %s como administrador del bot"
+		},
+		"tags": {
+			"create": {
+				"limit": "Has alcanzado el límite de tags (%d)"
+			}
+		},
+		"language": {
+			"content": "Los idiomas disponibles y sus progresos de traducción son los siguientes: %s",
+			"success": "El idioma del servidor ha sido cambiado a **%s** (%s)",
+			"select": "Seleccione un idioma (%c-%c)"
+		},
+		"interaction_switch": "A partir del <t:1662030000:D>, Discord obligará a **todos** los bots a cambiar a [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara ejecutar un comando de barra, presione el botón `/` en su teclado, o haga clic aquí: %s",
+		"on_call": {
+			"channel_mode": "`/on-call` solo puede ser usado en modo hilo. Visita nuestros [docs](https://docs.ticketsbot.net/features/thread-mode) para conocer más sobre hilos",
+			"success": "Ahora estás en llamada",
+			"remove_success": "Ya no estás en llamada"
+		},
+		"reopen": {
+			"not_found": "Ticket no encontrado",
+			"no_permission": "No tienes permisos para acceder a este ticket",
+			"already_open": "Este ticket ya está abierto",
+			"not_thread": "Solo los hilos pueden ser reabiertos",
+			"thread_deleted": "El ticket ha sido eliminado permanentemente",
+			"success": "Ticket %d reabierto: <#%d>",
+			"in_ticket": "El ticket ha cambiado de nombre a <@%d>"
+		},
+		"premium": {
+			"key": "Clave",
+			"check_again": "Revisar otra vez",
+			"subscription_found": "¡Suscripción encontrada!",
+			"subscription_found_content": "Para aplicar su suscripción a este servidor, el propietario del servidor (<@%d>) debe agregarlo como **usuario** administrador (los roles se ignoran) a través del comando </addadmin:%d>.\\n\\n Puede verificar que ha sido agregado como usuario administrador ejecutando </viewstaff:%d>.",
+			"activate_key": "Activar una clave premium",
+			"checking": "Comprobando estado Premium...",
+			"please_wait": "Espere, por favor...",
+			"success_after_check": "¡Ahora está activo en este servidor el Premium!",
+			"link_patreon_account": "Vincular cuenta de Patreon",
+			"no_subscription": "No se pudo encontrar una suscripción activa de Patreon vinculada a su cuenta de Discord. Asegúrese de [haber vinculado sus cuentas de Patreon y Discord] (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) y espere otros 10 minutos.",
+			"open_form": "Abrir el formulario",
+			"open_form_description": "Pulse el botón de abajo para reabrir el formulario",
+			"use_key_anyway": "Usar clave premium de todos modos",
+			"already_purchased_title": "¿Ya compraste premium?",
+			"already_purchased_description": "Si ya compraste premium, seleccione el método de pago del menú desplegable para comenzar",
+			"giveaway_key": "Clave del sorteo",
+			"selector": {
+				"description": "Seleccione el método que utilizó para obtener la premium",
+				"key": {
+					"description": "Seleccione esta opción si recibió una clave de regalo"
+				},
+				"patreon": {
+					"description": "Seleccione esta opción si realizó su compra en Patreon"
+				}
+			},
+			"about": "¡Premium te da acceso a más paneles, estadísticas, un bot personalizado y más! Visite nuestro [sitio web](https://ticketsbot.net/premium) para obtener más información.",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "Panel de Ticket Cambiado",
+			"jump_to_top": "Ir al inicio",
+			"reopened": "Ticket reabierto",
+			"ticket_closed": "Ticket Cerrado"
+		},
+		"click_here": "Clic aquí",
+		"confirm": "Confirmar",
+		"website": "Nuestra página web"
+	},
+	"help": {
+		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
+		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket",
+		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
+		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente"
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> se quitó de la lista negra"
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": "¿Quieres saber más? ¡Nuestra [documentación](https://docs.ticketsbot.net) te enseñará cómo configurar cada aspecto del bot!"
+		},
+		"threads": {
+			"missing_boosts": "Discord requiere que el servidor tenga [nivel de boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 o mayor para usar hilos privados",
+			"no_notification_channel": "Debes proveer un canal de notificación de tickets",
+			"notification_channel_type": "El canal de notificación de tickets debe ser un canal de texto",
+			"success": "El modo hilo ha sido activado",
+			"disabled": "El modo hilo ha sido desactivado"
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "Este ticket ya fue cerrado",
+			"no_permission": "No tienes permisos para ver este tipo de ticket",
+			"already_joined": "Ya te has unido a este ticket (<#%d>)",
+			"success": "Se te añadió al ticket: <#%d>"
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "No se pueden crear hilos en canales de anuncios",
+		"panel_force_disabled": "Este panel está deshabilitado. Por favor pide a un administrador que reactive su premium y utilice %s para poder rehabilitar el panel.",
+		"panel_disabled": "Los administradores del servidor han deshabilitado la apertura de este tipo de ticket"
+	}
+}

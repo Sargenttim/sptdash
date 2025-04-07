@@ -1,0 +1,330 @@
+{
+	"commands.about": "टिकट का उपयोग करना आसान है और अत्यधिक विन्यास योग्य टिकट और समर्थन बॉट | \\nसमर्थन सर्वर:https://discord.gg/VtV3rSk\\nआदेश: टाइप करें `/help`\\n`/setup` चलाकर शुरू करें",
+	"commands.add.no_channel": "उपयोगकर्ता(ओं) को जोड़ने के लिए आपको एक टिकट चैनल का उल्लेख करना होगा |",
+	"commands.add.no_members": "टिकट में जोड़ने के लिए आपको सदस्यों का उल्लेख करना होगा |",
+	"commands.add.no_permission": "आपको इस टिकट में लोगों को जोड़ने की अनुमति नहीं है",
+	"commands.add.not_ticket": "उल्लिखित चैनल टिकट नहीं है",
+	"commands.addadmin.no_members": "उल्लिखित चैनल टिकट नहीं है",
+	"commands.addadmin.owner": "सर्वर स्वामी पहले से ही एक व्यवस्थापक है",
+	"commands.addsupport.no_members": "आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा ताकि वह समर्थन प्रतिनिधि विशेषाधिकार प्रदान कर सके",
+	"commands.blacklist.no_members": "ब्लैकलिस्ट स्थिति को चालू करने के लिए आपको एक उपयोगकर्ता का उल्लेख करना होगा",
+	"commands.blacklist.self": "आप खुद को ब्लैकलिस्ट नहीं कर सकते",
+	"commands.claim.success": "आपका टिकट %s द्वारा नियंत्रित किया जाएगा",
+	"commands.invite": "[यहां क्लिक करें](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "आपको एक भाषा कोड या ध्वज निर्दिष्ट करने की आवश्यकता है। उपलब्ध भाषाएँ:\\n%s",
+	"commands.open.ticket_limit": "आप एक बार में केवल %d %s खोल सकते हैं",
+	"commands.open.too_many_tickets": "टिकट श्रेणी में बहुत अधिक टिकट हैं। किसी व्यवस्थापक से कुछ को बंद करने, या उन्हें किसी अन्य श्रेणी में ले जाने के लिए कहें",
+	"commands.panel": "पैनल कॉन्फ़िगर करने के लिए <https://dashboard.ticketsbot.net/manage/%d/panels> पर जाएं",
+	"commands.premium": "आप <https://www.patreon.com/ticketsbot> से एक प्रीमियम सदस्यता खरीद सकते हैं।\\nप्रीमियम कई लाभ प्रदान करता है, जैसे:\\n``diff\\n+ असीमित टिकट पैनल बनाएं\\n+ बॉट नाम, अवतार और अनुकूलित करें स्थिति (श्वेत लेबल)\\n+ सर्वर, उपयोगकर्ताओं और सहायक कर्मचारियों के बारे में विस्तृत आंकड़े\\n+ संदेशों के पाद लेख में कोई ब्रांडिंग नहीं\\n+ विकास का समर्थन करें और सर्वर लागतों का भुगतान करने में मेरी सहायता करें\\n```\\n\\nवैकल्पिक रूप से, आप यहां वोट कर सकते हैं 24 घंटे के लिए प्रीमियम मुफ्त पाने के लिए <https://vote.ticketbot.net>",
+	"commands.premium.already_premium": "इस गिल्ड के पास पहले से ही प्रीमियम है। यह %s. को समाप्त होता है",
+	"commands.premium.invalid_key": "अमान्य चाबी। सुनिश्चित करें कि आपने इसे सही तरीके से कॉपी किया है।",
+	"commands.remove.no_permission": "आपको इस टिकट में लोगों को जोड़ने की अनुमति नहीं है",
+	"commands.remove.staff": "आप कर्मचारियों को टिकट से नहीं हटा सकते",
+	"commands.removeadmin.no_members": "व्यवस्थापक विशेषाधिकारों को रद्द करने के लिए आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा",
+	"commands.removeadmin.owner": "गिल्ड का मालिक एक व्यवस्थापक होना चाहिए",
+	"commands.removeadmin.self": "आप अपने विशेषाधिकारों को रद्द नहीं कर सकते",
+	"commands.removesupport.no_members": "आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा ताकि वह समर्थन प्रतिनिधि विशेषाधिकार प्रदान कर सके",
+	"commands.rename.missing_name": "आपको इस टिकट के लिए एक नया नाम निर्दिष्ट करना होगा",
+	"commands.rename.success": "इस टिकट का नाम बदलकर <#%d> कर दिया गया है",
+	"commands.tags.create.already_exists": "आईडी `%s` वाला एक टैग पहले से मौजूद है। आप `/tag Delete %s`. का उपयोग करके टैग को हटा सकते है",
+	"commands.tags.create.invalid_arguments": "आपको एक टैग आईडी और सामग्री निर्दिष्ट करनी होगी",
+	"commands.tags.create.too_long": "टैग आईडी 16 वर्णों से अधिक लंबी नहीं हो सकती",
+	"commands.tags.delete.invalid_arguments": "हटाने के लिए आपको एक टैग आईडी निर्दिष्ट करनी होगी",
+	"commands.tags.delete.not_exist": "आईडी `%s` वाला टैग नहीं मिला",
+	"commands.tags.get.invalid_arguments": "आपको टैग की आईडी प्रदान करनी होगी। टैग के बारे में अधिक सहायता के लिए, <https://ticketsbot.net/tags> पर जाएं।",
+	"commands.tags.get.invalid_tag": "अमान्य टैग। टैग के बारे में अधिक सहायता के लिए, <https://ticketsbot.net/tags> पर जाएं।",
+	"commands.tags.list": "सभी टैग के लिए आईडी: \\n%s\\nटैग की सामग्री देखने के लिए, `%stag <ID>` चलाएं",
+	"commands.unclaim.not_claimed": "इस टिकट का दावा नहीं किया गया है",
+	"commands.unclaim.not_claimer": "टिकट का दावा करने वाले केवल व्यवस्थापक और उपयोगकर्ता टिकट का दावा नहीं कर सकते हैं",
+	"commands.unclaim.success": "सभी समर्थन प्रतिनिधि अब टिकट का जवाब दे सकते हैं",
+	"commands.vote": "24 घंटे मुफ्त प्रीमियम के लिए वोट करने के लिए यहां क्लिक करें:\\n<https://vote.ticketsbot.net>",
+	"generic.invalid_argument": "अमान्य तर्क: उपयोग का संदर्भ लें",
+	"generic.invalid_user": "लक्षित उपयोगकर्ता नहीं मिल सका",
+	"generic.no_permission": "आपको इसकी अनुमति नहीं है",
+	"generic.not_ticket": "यह टिकट चैनल नहीं है",
+	"generic.owner_only": "यह आदेश केवल बॉट मालिक के लिए आरक्षित है",
+	"help.about": "आपको बॉट के बारे में जानकारी देता है",
+	"help.add": "एक उपयोगकर्ता को टिकट में जोड़ता है",
+	"help.addadmin": "किसी उपयोगकर्ता या भूमिका को व्यवस्थापकीय विशेषाधिकार प्रदान करता है",
+	"help.addsupport": "एक उपयोगकर्ता या भूमिका को एक समर्थन प्रतिनिधि के रूप में जोड़ता है",
+	"help.admin": "बॉट प्रबंधन",
+	"help.admin.blacklist": "बीओटी का उपयोग करने से किसी गिल्ड को ब्लैकलिस्ट करें",
+	"help.admin.check_premium": "सर्वर की प्रीमियम स्थिति की जाँच करें",
+	"help.admin.force_close": "प्रदत्त टिकटों की स्थिति को बंद पर सेट करता है",
+	"help.admin.generate_premium": "प्रीमियम कुंजी उत्पन्न करें",
+	"help.admin.get_owner": "सर्वर का मालिक मिलता है",
+	"help.admin.unblacklist": "गिल्ड ब्लैकलिस्ट से एक गिल्ड निकालें",
+	"help.admin.update_schema": "डेटाबेस स्कीमा को अपडेट करता है",
+	"help.blacklist": "टॉगल करता है कि क्या उपयोगकर्ताओं को बॉट के साथ इंटरैक्ट करने की अनुमति है",
+	"help.cancel": "सेटअप प्रक्रिया को रद्द करता है",
+	"help.claim": "टिकट के लिए एक स्टाफ सदस्य को असाइन करता है",
+	"help.close": "वर्तमान टिकट बंद करता है",
+	"help.help": "आपको सभी आदेशों की एक सूची देता है",
+	"help.invite": "बॉट के लिए एक आमंत्रण लिंक प्रदान करता है",
+	"help.language": "बॉट द्वारा उपयोग की जाने वाली भाषा को बदलता है",
+	"help.managetags": "टैग जोड़ें, हटाएं या सूचीबद्ध करें",
+	"help.open": "एक नया टिकट खोलता है",
+	"help.panel": "",
+	"help.premium": "",
+	"help.remove": "",
+	"help.removeadmin": "",
+	"help.removesupport": "",
+	"help.rename": "",
+	"help.setup": "",
+	"help.stats": "",
+	"help.statsserver": "",
+	"help.tag": "",
+	"help.tagdelete": "",
+	"help.taggadd": "",
+	"help.taglist": "",
+	"help.transfer": "",
+	"help.unclaim": "",
+	"help.viewstaff": "",
+	"help.vote": "",
+	"open.success": "",
+	"setup.auto.category.failure": "",
+	"setup.auto.category.success": "",
+	"setup.auto.completed": "",
+	"setup.auto.roles.failure": "",
+	"setup.auto.roles.success": "",
+	"setup.auto.transcript.failure": "",
+	"setup.auto.transcript.success": "",
+	"setup.category.invalid": "",
+	"setup.category.success": "",
+	"setup.info.archive_channel": "",
+	"setup.info.auto": "",
+	"setup.info.category": "",
+	"setup.info.choose": "",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
+	"setup.info.prefix": "",
+	"setup.info.ticket_limit": "",
+	"setup.info.transcripts": "",
+	"setup.info.welcome_message": "",
+	"setup.prefix.success": "",
+	"setup.ticket_limit.success": "",
+	"setup.transcript.invalid": "",
+	"setup.transcript.success": "",
+	"setup.welcome_message.invalid": "",
+	"setup.welcome_message.success": "",
+	"commands.language.help_wanted": "",
+	"commands.rename.too_long": "",
+	"commands.autoclose.configure": "",
+	"help.autoclose": "",
+	"help.autoclose.exclude": "",
+	"help.autoclose.configure": "",
+	"commands.autoclose.exclude.success": "",
+	"commands.claim.no_permission": "",
+	"commands.open.from": "",
+	"commands.open.from.moved": "",
+	"help.close_request": "",
+	"close.reason_too_long": "",
+	"commands.close_request.no_reason": "",
+	"commands.close_request.with_reason": "",
+	"commands.close_request.no_permission": "",
+	"commands.close_request.denied": "",
+	"generic.error": "",
+	"feedback.disabled": "",
+	"feedback.success": "",
+	"generic.success": "",
+	"button.guild_only": "",
+	"button.dms_only": "",
+	"commands.tag.generic": "",
+	"commands.tags.delete.success": "",
+	"generic.ticket": "",
+	"generic.title.premium_only": "",
+	"generic.admin": "",
+	"commands.tags.create.success": "",
+	"generic.title.about": "",
+	"generic.title.vote": "",
+	"generic.title.tags": "",
+	"generic.title.autoclose": "",
+	"generic.title.invite": "",
+	"generic.title.close": "",
+	"generic.title.claim": "",
+	"generic.title.blacklisted": "",
+	"generic.title.blacklist": "",
+	"generic.error.blacklisted": "",
+	"commands.blacklist.add.success": "",
+	"commands.blacklist.remove.success": "",
+	"generic.title.add_admin": "",
+	"generic.title.add_support": "",
+	"generic.title.remove_admin": "",
+	"generic.title.remove_support": "",
+	"commands.addsupport.success": "",
+	"generic.title.language": "",
+	"commands.removesupport.success": "",
+	"commands.addadmin.success": "",
+	"commands.removeadmin.success": "",
+	"generic.title.setup": "",
+	"generic.title.premium": "",
+	"generic.title.panel": "",
+	"generic.title.rename": "",
+	"generic.title.remove": "",
+	"generic.title.help": "",
+	"generic.title.close_confirmation": "",
+	"close.confirmation": "",
+	"generic.title.close_request": "",
+	"commands.close_request.accept": "",
+	"commands.close_request.deny": "",
+	"commands.premium.success": "",
+	"generic.title.claimed": "",
+	"generic.title.unclaimed": "",
+	"generic.title.add": "",
+	"commands.add.success": "",
+	"commands.remove.success": "",
+	"open.ratelimited": "",
+	"commands.claim.thread": "",
+	"generic.join_support_server": "",
+	"commands.open.guild_channel_limit": "",
+	"commands.open.missing_form_answer": "",
+	"generic.use_slash_commands": "",
+	"close.no_permission": "",
+	"": {
+		"generic.title.close_with_reason": "",
+		"generic.reason": ""
+	},
+	"close": {
+		"reason": {
+			"placeholder": ""
+		},
+		"success": ""
+	},
+	"commands": {
+		"open": {
+			"disabled": "",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "",
+			"success": ""
+		},
+		"blacklist": {
+			"staff": "",
+			"add_role": {
+				"success": "",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "",
+			"content": ""
+		},
+		"addsupport": {
+			"confirm": "",
+			"everyone": ""
+		},
+		"addadmin": {
+			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
+		},
+		"language": {
+			"content": "",
+			"success": "",
+			"select": ""
+		},
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
+		},
+		"premium": {
+			"key": "",
+			"check_again": "",
+			"subscription_found": "",
+			"subscription_found_content": "",
+			"activate_key": "",
+			"checking": "",
+			"please_wait": "",
+			"success_after_check": "",
+			"link_patreon_account": "",
+			"no_subscription": "",
+			"open_form": "",
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": "",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "",
+			"jump_to_top": "",
+			"reopened": "",
+			"ticket_closed": ""
+		},
+		"click_here": "",
+		"confirm": "",
+		"website": ""
+	},
+	"help": {
+		"switch_panel": "",
+		"jump_to_top": "",
+		"on_call": "",
+		"reopen": ""
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": ""
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": ""
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "",
+		"panel_force_disabled": "",
+		"panel_disabled": ""
+	}
+}

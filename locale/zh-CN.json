@@ -1,0 +1,330 @@
+{
+	"commands.about": "工单是一个易于使用的工单和高度配置的工单和支持机器人。\\n支持服务器：https://discord.gg/VtV3rSk\\n命令：输入 `/help`\\n使用 `/setup`命令开始部署机器人",
+	"commands.add.no_channel": "记得标注问题单",
+	"commands.add.no_members": "你必须标注一个人嗄",
+	"commands.add.no_permission": "你没有权限添加该成员到问题单",
+	"commands.add.not_ticket": "提到的频道不是问题单",
+	"commands.addadmin.no_members": "您需要提及一个用户或一个身份组来授予管理员权限",
+	"commands.addadmin.owner": "服务器所有者已经是管理员",
+	"commands.addsupport.no_members": "您需要提及用户或命身份组以授予支持代表权限",
+	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
+	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
+	"commands.claim.success": "你的问题单将由 %s 为您服务",
+	"commands.invite": "[点击此处](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
+	"commands.open.ticket_limit": "您一次只能打开 %d %s",
+	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
+	"commands.panel": "请前往 <https://dashboard.ticketsbot.net/manage/%d/panels>来去管理机器人",
+	"commands.premium": "您可以从 <https://www.patreon.com/ticketsbot> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.net> 获得 24 小时免费高级版",
+	"commands.premium.already_premium": "目前服务器已经启用高级方案，将在 %s 过期",
+	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
+	"commands.remove.no_permission": "没有权限踢掉他唷",
+	"commands.remove.staff": "不能移除工作人员",
+	"commands.removeadmin.no_members": "您需要提及一个用户或身份组来撤销其管理员权限",
+	"commands.removeadmin.owner": "服务器所有者必须是管理员",
+	"commands.removeadmin.self": "不能撤销你自己的权限",
+	"commands.removesupport.no_members": "您需要提及用户或身份组以授予支持代表权限",
+	"commands.rename.missing_name": "您需要为此问题单指定一个新名称",
+	"commands.rename.success": "该问题单以重新命名为 <#%d>",
+	"commands.tags.create.already_exists": "ID为%s的标签已经存在。您可以使用 \"/tag delete %s \" 删除标签",
+	"commands.tags.create.invalid_arguments": "您必须指定标籤 ID 和内容",
+	"commands.tags.create.too_long": "标籤 ID 不能超过 16 个字符",
+	"commands.tags.delete.invalid_arguments": "您必须指定要删除的标籤 ID",
+	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
+	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <https://ticketsbot.net/tags>。",
+	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <https://ticketsbot.net/tags>。",
+	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%stag <ID>`",
+	"commands.unclaim.not_claimed": "目前问题单还没被指派",
+	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
+	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
+	"commands.vote": "投票获得24小时的高级方案！\\n<https://vote.ticketsbot.net>",
+	"generic.invalid_argument": "无效参数：参考用法",
+	"generic.invalid_user": "找不到目标成员",
+	"generic.no_permission": "没有权限使用唷",
+	"generic.not_ticket": "这不是问题单啊",
+	"generic.owner_only": "这指令只能由机器人作者使用",
+	"help.about": "告诉您有关机器人的信息",
+	"help.add": "将用户添加到问题单",
+	"help.addadmin": "授予用户或身份组管理员权限",
+	"help.addsupport": "添加用户或身份组作为问题单支持小组",
+	"help.admin": "机器人管理",
+	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
+	"help.admin.check_premium": "检查服务器是否有开通高级版",
+	"help.admin.force_close": "将所提供问题单的状态设置为已关闭",
+	"help.admin.generate_premium": "产生高级版代码",
+	"help.admin.get_owner": "获取服务器的拥有者资讯",
+	"help.admin.unblacklist": "将该服务器从黑名单移除",
+	"help.admin.update_schema": "更新资料库方案",
+	"help.blacklist": "切换是否允许用户与机器人互动（表情符号回馈等等）",
+	"help.cancel": "取消设置流程",
+	"help.claim": "将成员分配到该问题单中",
+	"help.close": "关闭现有问题单",
+	"help.help": "显示所有可以用的指令",
+	"help.invite": "为机器人提供一个邀请链接",
+	"help.language": "更换语言",
+	"help.managetags": "添加、删除或显示所有标籤",
+	"help.open": "开启一个新的问题单",
+	"help.panel": "创建表情符号回馈面板让成员们能够轻松点击创建问题单",
+	"help.premium": "购买高级版后运行此命令来激活它",
+	"help.remove": "将成员从问题单移除",
+	"help.removeadmin": "撤销某人或某身份组的问题单管理权限",
+	"help.removesupport": "撤销某人或某身份组的问题单支持权限",
+	"help.rename": "重新命名问题单",
+	"help.setup": "让你轻松设定机器人",
+	"help.stats": "显示有​​关用户、支持人员和服务器的统计信息",
+	"help.statsserver": "显示服务器数据",
+	"help.tag": "传送标籤（也就是罐头信息）",
+	"help.tagdelete": "删除标籤",
+	"help.taggadd": "添加新标籤",
+	"help.taglist": "显示所有标籤",
+	"help.transfer": "将已被分配的问题单移交给另外一个人",
+	"help.unclaim": "撤销原本分配到该问题单的人",
+	"help.viewstaff": "显示问题单工作人员跟支持人员",
+	"help.vote": "给你一个投票连结让你获得免费高级版的资格",
+	"open.success": "开了一张问题单：%s",
+	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
+	"setup.auto.category.success": "创建问题单类别",
+	"setup.auto.completed": "设定完成，用力点击 [这里](https://dashboard.ticketsbot.net/manage/%d/panels) 去创建问题单面板, 并添加 <@&%d> 和 <@&%d>给你的工作团队",
+	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
+	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
+	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
+	"setup.auto.transcript.success": "创建 <#%d> 频道",
+	"setup.category.invalid": "您必须提供[**频道类别**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**例如:** `/setup category Tickets`",
+	"setup.category.success": "问题单类别切换到 `%s`",
+	"setup.info.archive_channel": "请指定您希望在问题单关闭后将问题单日志发送到哪个频道\\n例如：`#logs`",
+	"setup.info.auto": "自动选择选项并创建所需的频道",
+	"setup.info.category": "输入您希望在其下创建问题单的 **频道类别** 的**名称**",
+	"setup.info.choose": "请选择一个选项。 您可以使用 “/setup” 或 “/setup auto” 快速部署并运行，或者使用其他命令调整设置",
+	"setup.info.dashboard": "更多设定可以到 [网页面板](https://dashboard.ticketsbot.net)",
+	"setup.info.panels": "前往 [网页面板](https://dashboard.ticketsbot.net/manage/%d/panels) 来去创建问题单面板",
+	"setup.info.prefix": "更改机器人的前缀(如：“t!”)。\\n**示例：** “/setup 前缀 -”",
+	"setup.info.ticket_limit": "设置**单个用户一次打开**的最大工单数量。\\n**示例：** “/setuplimit 3”",
+	"setup.info.transcripts": "设置问题单纪录将发送到哪个频道。\\n**例如：** `/setup transcripts #logs`",
+	"setup.info.welcome_message": "输入打开问题单时机器人应发送的消息",
+	"setup.prefix.success": "前缀已更改为 `%s`。您可以使用 `%sopen` 来打开问题单",
+	"setup.ticket_limit.success": "问题单限制已经更改为`%d`",
+	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `/setup transcripts #logs`",
+	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
+	"setup.welcome_message.invalid": "欢迎信息的长度不得超过1024个字符\\n**例如：**`/setup welcomemessage 感谢您打开工单！`",
+	"setup.welcome_message.success": "欢迎信息已更新。打开问题单以查看其运行情况",
+	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](https://discord.gg/bh6aAfP)",
+	"commands.rename.too_long": "频道名称不能长于 100 个字符",
+	"commands.autoclose.configure": "前往 [仪表盘](https://dashboard.ticketsbot.net/manage/%d/panels)来创建工单面板",
+	"help.autoclose": "有关**自动关闭**的命令",
+	"help.autoclose.exclude": "停用当前工单自动被关闭",
+	"help.autoclose.configure": "编辑自动关闭相关的设置",
+	"commands.autoclose.exclude.success": "这个工单已停用自动关闭",
+	"commands.claim.no_permission": "只有员工才能认领工单",
+	"commands.open.from": "这个工单是从[这个消息](%s) 打开的。\n\n<@%d> 在 <#%d> 中说过：\n```%s```",
+	"commands.open.from.moved": "对话已移动到新工单(<#%d>)",
+	"help.close_request": "发送消息，请用户确认工单能被关闭",
+	"close.reason_too_long": "原因不能超过 255 个字符",
+	"commands.close_request.no_reason": "<@%d> 请求关闭此工单。\n\n请使用下面的按钮确认或拒绝。",
+	"commands.close_request.with_reason": "<@%d> 请求关闭此工单。原因：\n```\n%s\n```\n请使用下面的按钮确认或拒绝。",
+	"commands.close_request.no_permission": "只有打开工单的用户才可以响应关闭请求",
+	"commands.close_request.denied": "<@%d> 拒绝了关闭请求",
+	"generic.error": "错误",
+	"feedback.disabled": "此服务器已禁用反馈",
+	"feedback.success": "已收到您的反馈",
+	"generic.success": "成功",
+	"button.guild_only": "这个按钮只能服务器中使用",
+	"button.dms_only": "这个按钮只能在私信中使用",
+	"commands.tag.generic": "标签",
+	"commands.tags.delete.success": "标签`%s`已被删除",
+	"generic.ticket": "工单",
+	"generic.title.premium_only": "高级订阅专用命令",
+	"generic.admin": "管理员",
+	"commands.tags.create.success": "标签已创建 - 你可以通过运行 `/tag %s ` 来使用",
+	"generic.title.about": "关于",
+	"generic.title.vote": "投票",
+	"generic.title.tags": "标签",
+	"generic.title.autoclose": "自动关闭",
+	"generic.title.invite": "邀请",
+	"generic.title.close": "关闭",
+	"generic.title.claim": "认领",
+	"generic.title.blacklisted": "黑名单",
+	"generic.title.blacklist": "黑名单",
+	"generic.error.blacklisted": "你的服务器在黑名单中",
+	"commands.blacklist.add.success": "<@%d>已被列入黑名单",
+	"commands.blacklist.remove.success": "<@%d> 已被移出黑名单",
+	"generic.title.add_admin": "添加管理员",
+	"generic.title.add_support": "添加支持",
+	"generic.title.remove_admin": "移除管理员",
+	"generic.title.remove_support": "移除支持",
+	"commands.addsupport.success": "添加支持代表成功",
+	"generic.title.language": "语言",
+	"commands.removesupport.success": "移除支持代表成功",
+	"commands.addadmin.success": "已成功添加管理员",
+	"commands.removeadmin.success": "已成功移除管理员",
+	"generic.title.setup": "部署",
+	"generic.title.premium": "高级订阅",
+	"generic.title.panel": "控制面板",
+	"generic.title.rename": "重命名",
+	"generic.title.remove": "移除",
+	"generic.title.help": "帮助",
+	"generic.title.close_confirmation": "关闭确认",
+	"close.confirmation": "请再次确认您是否想关闭此工单",
+	"generic.title.close_request": "关闭请求",
+	"commands.close_request.accept": "接受并关闭",
+	"commands.close_request.deny": "拒绝并保持开启",
+	"commands.premium.success": "高级版已激活**%d** 天",
+	"generic.title.claimed": "已认领的工单",
+	"generic.title.unclaimed": "未认领的工单",
+	"generic.title.add": "添加",
+	"commands.add.success": "已添加 <@%d> 至 <#%d>",
+	"commands.remove.success": "<@%d> 已从 <#%d > 移除",
+	"open.ratelimited": "此服务器内的工单创建速度过快",
+	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
+	"generic.join_support_server": "加入支持服务器",
+	"commands.open.guild_channel_limit": "此服务器已达到 Discord 最大 500 个频道的限制",
+	"commands.open.missing_form_answer": "您必须先回答问题 `%s`",
+	"generic.use_slash_commands": "警告：您必须在 8 月 31 日前切换到使用斜杠命令，此日期之后文字信息命令将会失效。",
+	"close.no_permission": "您无权关闭此工单",
+	"": {
+		"generic.title.close_with_reason": "关闭工单并填写原因",
+		"generic.reason": "原因"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "关闭工单的原因，例如 “已解决”"
+		},
+		"success": "此工单已被 <@%d> 关闭"
+	},
+	"commands": {
+		"open": {
+			"disabled": "此服务器已禁用 `/open` 命令：请使用工单面板来开启工单",
+			"threads": {
+				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)"
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
+			"success": "这个工单被 <@%d> 切换到 `%s` 面板"
+		},
+		"blacklist": {
+			"staff": "员工不能被列入黑名单",
+			"add_role": {
+				"success": "<@&%d> 已被列入黑名单",
+				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
+			},
+			"add": {
+				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "这个工单没有欢迎消息",
+			"content": "点击下面的按钮跳到工单顶部"
+		},
+		"addsupport": {
+			"confirm": "请确认您想要将 %s 添加到默认支持代表团队",
+			"everyone": "你不能添加 `@everone` 角色作为工作人员"
+		},
+		"addadmin": {
+			"confirm": "请确认您想要添加 %s 作为机器人管理员"
+		},
+		"tags": {
+			"create": {
+				"limit": "标签 (%d) 已达到可添加的数量上限"
+			}
+		},
+		"language": {
+			"content": "可用语言及其翻译进度如下：\n%s",
+			"success": "服务器语言已更改为**%s** (%s)",
+			"select": "选择语言(%c-%c)"
+		},
+		"interaction_switch": "从 <t:1662030000:D>起，Discord已强制所有机器人切换到 [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)。\n\n要执行斜杠命令，请点击键盘上的 `/` 按钮，或点击这里： %s",
+		"on_call": {
+			"channel_mode": "“/on-call” 只能用于子区模式。访问我们的 [docs](https://docs.ticketsbot.net/features/thread-mode) 以了解更多关于子区的信息",
+			"success": "你现在是在线状态",
+			"remove_success": "你不再是在线状态"
+		},
+		"reopen": {
+			"not_found": "工单未找到",
+			"no_permission": "您无权重新打开此工单",
+			"already_open": "此工单已经打开",
+			"not_thread": "只有子区可以重新打开",
+			"thread_deleted": "这个工单已被永久删除",
+			"success": "任务单 %d 被重新打开在：<#%d>",
+			"in_ticket": "此工单已被 <@%d > 重新打开。"
+		},
+		"premium": {
+			"key": "密钥",
+			"check_again": "再次检查",
+			"subscription_found": "没有发现订阅！",
+			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 </addadmin:%d> 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 </viewstaff:%d> 来验证您是否已被添加为管理员用户。",
+			"activate_key": "激活高级订阅密钥",
+			"checking": "正在检查高级订阅状态...",
+			"please_wait": "请稍候...",
+			"success_after_check": "已经在此服务器上激活高级订阅！",
+			"link_patreon_account": "绑定 **Patreon** 账号",
+			"no_subscription": "找不到到您的 Discord 账户关联的 Patreon 订阅。请确保您[已将您的 Patreon 和 Discord 账户关联好](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)，并再等10分钟。",
+			"open_form": "打开表格",
+			"open_form_description": "按下面的按钮重新打开表格",
+			"use_key_anyway": "仍然使用高级订阅密钥",
+			"already_purchased_title": "已经购买高级订阅？",
+			"already_purchased_description": "如果您已经购买了高级订阅，请从下拉菜单中选择付款方式开始使用",
+			"giveaway_key": "赠品密钥",
+			"selector": {
+				"description": "选择您获取高级订阅的方法",
+				"key": {
+					"description": "如果您需要使用密钥，请选择此选项"
+				},
+				"patreon": {
+					"description": "如果您在 **Patreon** 上购买，请选择此选项"
+				}
+			},
+			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://ticketsbot.net/premium) 来了解更多信息。",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "工单类型切换成功",
+			"jump_to_top": "跳转到顶部",
+			"reopened": "工单已被重新开启",
+			"ticket_closed": "工单已关闭"
+		},
+		"click_here": "点击此处",
+		"confirm": "确认",
+		"website": "我们的官网"
+	},
+	"help": {
+		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
+		"jump_to_top": "点击下面的按钮跳到工单顶部",
+		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
+		"reopen": "重新打开之前关闭的工单"
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> 已被移出黑名单"
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": "想要探索更多？我们的 [documentation](https://docs.ticketsbot.net) 将教你如何配置机器人！"
+		},
+		"threads": {
+			"missing_boosts": "Discord 服务器需要达到[Boost Level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2或更高来使用私有线程",
+			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
+			"notification_channel_type": "工单通知频道必须是文本频道",
+			"success": "子区模式已启用",
+			"disabled": "子区模式已关闭"
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "工单已经被关闭",
+			"no_permission": "你没有看这个工单的权限",
+			"already_joined": "你已经加入了<#%d>这个工单",
+			"success": "将您添加到工单： <#%d>"
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "子区不能在公告频道创建",
+		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
+		"panel_disabled": "服务器管理员已禁用此类型的工单"
+	}
+}
