@@ -10,6 +10,6 @@
 
 <script>
     function invite() {
-        window.location.href = `https://https://discord.com/oauth2/authorize?client_id=1358483187675955240`;
+        window.location.href = `https://discord.com/oauth2/authorize?client_id=1358483187675955240`;
     }
 </script>
